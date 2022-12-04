@@ -1,3 +1,72 @@
 .promo {
+  background: $blue-color3;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 23px;
+  padding-bottom: 32px;
+}
+
+.promo__title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $white-color;
+  margin-top: 0;
+  margin-bottom: 342px;
+  text-align: center;
+}
+
+.promo__button {
+  margin-bottom: 32px;
+}
+
+.promo__apps-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background: yellow;
+  margin-bottom: 20px;
+}
+
+.promo__apps-item {
+  margin-right: 35px;
+}
+
+.promo__apps-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.promo__apps-link {
+  background: black;
+  display: block;
+}
+
+.promo__apps-link--apple {
+  width: 47px;
+  height: 56px;
+}
+
+.promo__apps-link--android {
+  width: 43px;
+  height: 47px;
+  margin-top: 6px;
+}
+
+.promo__apps-link--microsoft {
+  width: 44px;
+  height: 41px;
+  margin-top: 12px;
+}
+
+.promo__available-for {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $white-color;
+  text-align: center;
 }
