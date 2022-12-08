@@ -11,7 +11,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 34px;
+  margin-bottom: 31px;
 }
 
 .slider-reviews__slider-item {
@@ -32,32 +32,4 @@
   font-size: 14px;
   line-height: 30px;
   color: $blue-color1;
-}
-
-.slider-reviews__controls {
-  background: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.slider-reviews__button {
-  display: block;
-  box-sizing: border-box;
-  background-color: $gray-color2;
-  border: none;
-  width: 6px;
-  height: 6px;
-  padding: 0;
-  margin-right: 19px;
-  margin-bottom: 10px;
-}
-
-.slider-reviews__button:last-of-type {
-  margin-right: 0;
-}
-
-.slider-reviews__button--active {
-
 }

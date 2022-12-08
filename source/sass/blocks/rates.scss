@@ -1,19 +1,23 @@
 .rates {
-  display: flex;
-  justify-content: center;
   position: relative;
   width: 100%;
   height: 500px;
   background: lightgreen;
   overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .rates__table {
   position: absolute;
   top: 0;
+  // left: 0;
+  left: -278px;
+  // right: 0;
   background: lightblue;
   border-collapse: collapse;
-  width: 840px;
+  width: 836px;
+  border: 2px solid $gray-color3;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -24,7 +28,9 @@
 
 .rates__cell {
   border: 2px solid $gray-color3;
-  width: 280px;
+  width: 276px;
+  box-sizing: border-box;
+
 }
 
 .rates__empty-cell {
@@ -36,18 +42,24 @@
   color: $white-color;
   text-transform: uppercase;
   background: $blue-color1;
+  padding-top: 12px;
+  padding-bottom: 29px;
 }
 
 .rates__rate-name {
   display: block;
   font-size: 16px;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: -3px;
 }
 
 .rates__rate-cost {
   display: block;
   font-size: 18px;
   font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .rates__left-header-cell {
@@ -55,13 +67,37 @@
 }
 
 .rates__content-cell {
+  padding-top: 0;
+}
 
+.rates__cell-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 57px;
+  padding-left: 20px;
+  padding-right: 17px;
 }
 
 .rates__content-text {
-
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $blue-color1;
 }
 
 .rates__content-mark {
 
+}
+
+.rates__content-mark--yes {
+  width: 31px;
+  height: 21px;
+  background: green;
+}
+
+.rates__content-mark--no {
+  width: 27px;
+  height: 27px;
+  background: red;
 }

@@ -1,0 +1,28 @@
+.slider-controls {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slider-controls__button {
+  display: block;
+  box-sizing: border-box;
+  background-color: $gray-color2;
+  border: none;
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  margin-right: 19px;
+  margin-bottom: 6px;
+}
+
+.slider-controls__button:last-of-type {
+  margin-right: 0;
+}
+
+.slider-controls__button--active {
+
+}
