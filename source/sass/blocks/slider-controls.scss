@@ -1,4 +1,7 @@
 .slider-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   padding-top: 3px;
   padding-bottom: 3px;
   background: red;
@@ -7,22 +10,25 @@
   flex-wrap: wrap;
 }
 
+.slider-controls__item {
+  margin-right: 19px;
+  margin-bottom: 6px;
+}
+
+.slider-controls__item:last-of-type {
+  margin-right: 0;
+}
+
 .slider-controls__button {
   display: block;
-  box-sizing: border-box;
   background-color: $gray-color2;
   border: none;
   width: 6px;
   height: 6px;
   padding: 0;
-  margin-right: 19px;
-  margin-bottom: 6px;
-}
-
-.slider-controls__button:last-of-type {
-  margin-right: 0;
+  border-radius: 50%;
 }
 
 .slider-controls__button--active {
-
+  box-shadow: 0 0 0 3px $blue-color1;
 }
