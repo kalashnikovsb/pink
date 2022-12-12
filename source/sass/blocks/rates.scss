@@ -1,13 +1,15 @@
 .rates {
   background: lightgreen;
-  padding-top: 0;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
 .rates__wrap {
   position: relative;
-  height: 400px;
+  height: 282px;
   overflow: hidden;
+  background: black;
+  margin-bottom: 41px;
 }
 
 .rates__table {
