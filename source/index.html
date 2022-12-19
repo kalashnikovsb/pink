@@ -16,7 +16,7 @@
     <header class="main-header">
       <div class="main-header__top">
         <a class="logo main-header__logo">
-          <img class="logo__image" src="#" width="74px" height="23px" alt="Логотип Pink">
+          <img class="logo__image" src="#" width="74" height="23" alt="Логотип Pink">
         </a>
         <button class="nav-button main-header__nav-button" aria-label="Открыть или закрыть меню навигации"></button>
       </div>
@@ -213,29 +213,49 @@
 
       <section class="contacts main-content__contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <p class="contacts__title">Остались вопросы? Свяжитесь с нами!</p>
-        <ul class="contacts__list">
-          <li class="contacts__item">
-            <p class="contacts__text">Звоните:</p>
-            <a class="contacts__link">+7 (812) 555-66-66</a>
-          </li>
-          <li class="contacts__item">
-            <p class="contacts__text">Пишите:</p>
-            <a class="contacts__link">mail@htmlacademy.ru</a>
-          </li>
-          <li class="contacts__item">
-            <p class="contacts__text">Приезжайте в гости:</p>
-            <a class="contacts__link">ул. Большая Конюшенная, 19/8</a>
-          </li>
-        </ul>
+        <div class="contacts__wrap">
+          <p class="contacts__title">Остались вопросы? Свяжитесь с нами!</p>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <span class="contacts__text">Звоните:</span>
+              <a class="contacts__link">+7 (812) 555-66-66</a>
+            </li>
+            <li class="contacts__item contacts__item--second">
+              <span class="contacts__text">Пишите:</span>
+              <a class="contacts__link">mail@htmlacademy.ru</a>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__text">Приезжайте в гости:</span>
+              <span class="contacts__link">ул. Большая Конюшенная, 19/8</span>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__map"></div>
       </section>
     </main>
 
+    <footer class="main-footer">
+      <a class="logo logo--tablet main-footer__logo">
+        <img class="logo__image logo__image--tablet" src="#" width="145" height="40" alt="Логотип Pink">
+      </a>
 
+      <ul class="socials main-footer__socials">
+        <li class="socials__item">
+          <a class="socials__link" href="https://twitter.com" aria-label="Ссылка на аккаунт twitter"></a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="https://facebook.com" aria-label="Ссылка на аккаунт facebook"></a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="https://youtube.com" aria-label="Ссылка на аккаунт youtube"></a>
+        </li>
+      </ul>
 
-
-
-
+      <div class="copyright main-footer__copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__link"></a>
+      </div>
+    </footer>
 
     <script src="js/script.js"></script>
   </body>

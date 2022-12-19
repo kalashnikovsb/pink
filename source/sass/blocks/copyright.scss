@@ -1,0 +1,18 @@
+.copyright {
+  background: tomato;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 18px;
+  color: $blue-color1;
+}
+
+.copyright__link {
+  width: 27px;
+  height: 34px;
+  background: black;
+}

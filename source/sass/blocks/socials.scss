@@ -1,0 +1,21 @@
+.socials {
+  background: tomato;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.socials__item {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid $gray-color4;
+}
+
+.socials__link {
+
+}
