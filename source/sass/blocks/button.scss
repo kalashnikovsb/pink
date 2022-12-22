@@ -23,3 +23,9 @@
   border-radius: 27px 27px 27px 27px;
   color: $white-color;
 }
+
+@media (min-width: $tablet-width) {
+  .button--rounded {
+    width: 300px;
+  }
+}
