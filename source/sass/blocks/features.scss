@@ -55,3 +55,20 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .features__title-wrap {
+
+  }
+
+  .features__title {
+    font-size: 40px;
+    line-height: 54px;
+
+  }
+}
