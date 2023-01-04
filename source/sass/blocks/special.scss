@@ -1,15 +1,32 @@
 .special {
-
+  padding-top: 96px;
+  padding-bottom: 20px;
+  padding-left: 50%;
+  padding-right: 20px;
 }
 
 .special__title {
-
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  padding-right: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .special__text {
-
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-color1;
+  padding-right: 10px;
+  margin-top: 0;
+  margin-bottom: 7px;
 }
 
 .special__link {
-
+  font-size: 14px;
+  line-height: 30px;
+  color: $red-color1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
