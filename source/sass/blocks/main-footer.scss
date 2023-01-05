@@ -16,3 +16,26 @@
 .main-footer__socials {
   margin-bottom: 38px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-footer {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 36px;
+    padding-bottom: 37px;
+  }
+
+  .main-footer__logo {
+    margin-bottom: 0;
+    margin-right: 76px;
+  }
+
+  .main-footer__socials {
+    margin-bottom: 0;
+  }
+
+  .main-footer__copyright {
+    margin-top: 10px;
+    margin-left: auto;
+  }
+}

@@ -32,3 +32,10 @@
 .slider-controls__button--active {
   box-shadow: 0 0 0 3px $blue-color1;
 }
+
+
+@media (min-width: $tablet-width) {
+  .slider-controls--rates {
+    display: none;
+  }
+}

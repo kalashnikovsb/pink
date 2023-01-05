@@ -1,14 +1,14 @@
 .rates {
   background: lightgreen;
-  padding-top: 100px;
+  padding-top: 102px;
   padding-bottom: 40px;
 }
 
 .rates__wrap {
   position: relative;
-  height: 282px;
+  height: 280px;
   overflow: hidden;
-  background: black;
+  // background: black;
   margin-bottom: 41px;
 }
 
@@ -19,16 +19,14 @@
   left: calc(50% - 418px);
   // right: 0;
   background: lightblue;
-  border-collapse: collapse;
+  // border-collapse: collapse;
   width: 836px;
-  border: 2px solid $gray-color3;
+  border-spacing: 0;
 }
 
 .rates__cell {
-  border: 2px solid $gray-color3;
   width: 276px;
   box-sizing: border-box;
-
 }
 
 .rates__empty-cell {
@@ -42,6 +40,8 @@
   background: $blue-color1;
   padding-top: 12px;
   padding-bottom: 29px;
+  border-left: 1px solid $gray-color3;
+  border-right: 1px solid $gray-color3;
 }
 
 .rates__rate-name {
@@ -66,15 +66,18 @@
 
 .rates__content-cell {
   padding-top: 0;
+  border-left: 1px solid $gray-color3;
+  border-right: 1px solid $gray-color3;
+  border-bottom: 2px solid $gray-color3;
 }
 
 .rates__cell-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 18px;
-  padding-top: 13px;
+  padding-left: 19px;
+  padding-right: 17px;
+  padding-top: 14px;
   padding-bottom: 14px;
 }
 
@@ -85,18 +88,101 @@
   color: $blue-color1;
 }
 
-.rates__content-mark {
-
-}
-
 .rates__content-mark--yes {
   width: 31px;
   height: 21px;
-  background: green;
+  background: url("../../img/icon-yes.svg") 50% 50% no-repeat;
 }
 
 .rates__content-mark--no {
   width: 27px;
   height: 27px;
-  background: red;
+  background: url("../../img/icon-no.svg") 50% 50% no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .rates {
+    padding-top: 106px;
+    padding-bottom: 68px;
+    // background: black;
+  }
+
+  .rates__wrap {
+    position: static;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 220px;
+    margin-bottom: 0;
+  }
+
+  .rates__table {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .rates__cell {
+    width: 25%;
+  }
+
+  .rates__top-header-cell {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+
+  .rates__top-header-cell--first {
+    border-radius: 3px 0 0 0;
+    border-left: none;
+  }
+
+  .rates__top-header-cell--last {
+    border-radius: 0 3px 0 0;
+    border-right: none;
+  }
+
+  .rates__empty-cell {
+    display: table-cell;
+    background: $gray-color1;
+    border-color: $gray-color1;
+  }
+
+  .rates__left-header-cell {
+    display: table-cell;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 0;
+    border-left: 2px solid $gray-color3;
+    border-bottom: 2px solid $gray-color3;
+  }
+
+  .rates__content-cell:first-of-type {
+    border-left: 2px solid $gray-color3;
+  }
+
+  .rates__content-cell:last-of-type {
+    border-right: 2px solid $gray-color3;
+  }
+
+  .rates__cell-inner {
+    background: tomato;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .rates__content-text {
+    display: none;
+  }
+
+  .rates__slider-controls {
+    display: none;
+  }
 }
