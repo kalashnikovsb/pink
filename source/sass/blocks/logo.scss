@@ -31,3 +31,15 @@
     height: 40px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .logo {
+    width: 147px;
+    height: 40px;
+  }
+
+  .logo__inner {
+    width: 147px;
+    height: 40px;
+  }
+}

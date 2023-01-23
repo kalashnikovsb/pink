@@ -4,3 +4,9 @@
   height: 23px;
   border: none;
 }
+
+@media (min-width: $desktop-width) {
+  .nav-button {
+    display: none;
+  }
+}
