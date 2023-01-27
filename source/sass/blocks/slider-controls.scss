@@ -39,3 +39,9 @@
     display: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .slider-controls {
+    display: none;
+  }
+}

@@ -42,7 +42,7 @@
   .main-header__top {
     display: flex;
     padding-top: 27px;
-    padding-bottom: 43px;
+    padding-bottom: 17px;
     padding-left: 130px;
     padding-right: 130px;
   }
@@ -53,6 +53,11 @@
     padding-left: 0;
     padding-right: 0;
     border-bottom: none;
-    margin-right: auto;
+    margin-right: 174px;
+  }
+
+  .main-header__main-nav {
+    background: red;
+    margin-top: 18px;
   }
 }

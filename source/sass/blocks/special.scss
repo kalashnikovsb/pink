@@ -37,3 +37,30 @@
     display: block;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .special {
+    padding-top: 143px;
+    padding-bottom: 112px;
+    padding-left: 500px;
+    padding-right: 130px;
+  }
+
+  .special__title {
+    line-height: 30px;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  .special__text {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .special__link {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

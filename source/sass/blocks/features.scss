@@ -97,3 +97,71 @@
     display: block;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .features__title-wrap {
+    padding-top: 62px;
+    padding-bottom: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-bottom: 0;
+  }
+
+  .features__title {
+    font-size: 50px;
+    line-height: 68px;
+  }
+
+  .features__title:last-of-type {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  .features__list {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .features__item {
+    width: 300px;
+    box-sizing: border-box;
+    padding-top: 384px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: yellow;
+  }
+
+  .features__item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .features__caption {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 22px;
+  }
+
+  .features__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .features__text-break {
+    display: none;
+  }
+}

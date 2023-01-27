@@ -107,3 +107,46 @@
     height: 374px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+
+  .contacts__wrap {
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-bottom: 10px;
+  }
+
+  .contacts__title {
+    font-size: 50px;
+    line-height: 68px;
+    margin-bottom: 40px;
+  }
+
+  .contacts__list {
+    justify-content: space-between;
+  }
+
+  .contacts__item {
+
+  }
+
+  .contacts__item--second {
+    order: 3;
+  }
+
+  .contacts__text {
+    margin-bottom: 20px;
+  }
+
+  .contacts__link {
+
+  }
+
+  .contacts__map {
+    height: 497px;
+  }
+}

@@ -41,3 +41,16 @@
     margin-left: 32px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .main-footer {
+    padding-top: 70px;
+    padding-bottom: 73px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .main-footer__logo {
+    margin-right: 38px;
+  }
+}

@@ -111,3 +111,40 @@
     font-size: 18px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .promo {
+    padding-top: 99px;
+    padding-bottom: 125px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .promo__title {
+    font-size: 50px;
+    line-height: 68px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 36px;
+  }
+
+  .promo__button {
+    margin-bottom: 67px;
+  }
+
+  .promo__apps-list {
+    margin-bottom: 0;
+    padding-left: 0px;
+    padding-right: 2px;
+    gap: 20px 35px;
+    margin-bottom: 52px;
+  }
+
+  .promo__apps-link--android {
+    margin-top: 8px;
+  }
+
+  .promo__apps-link--microsoft {
+    margin-top: 12px;
+  }
+}

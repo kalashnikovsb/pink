@@ -30,16 +30,17 @@
     display: flex;
     flex-wrap: wrap;
     border-top: none;
+    gap: 10px 79px;
+    align-items: flex-start;
   }
 
   .main-nav__item {
     border-top: none;
     border-bottom: none;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 30px;
     padding-left: 0;
     padding-right: 0;
-    margin-right: 79px;
   }
 
   .main-nav__item:last-of-type {
@@ -47,6 +48,7 @@
   }
 
   .main-nav__link {
+    display: block;
     line-height: 18px;
     font-weight: 400;
     text-transform: initial;
