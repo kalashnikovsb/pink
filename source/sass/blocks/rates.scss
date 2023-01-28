@@ -8,18 +8,14 @@
   position: relative;
   height: 280px;
   overflow: hidden;
-  // background: black;
   margin-bottom: 41px;
 }
 
 .rates__table {
   position: absolute;
   top: 0;
-  // left: 0;
   left: calc(50% - 418px);
-  // right: 0;
   background: lightblue;
-  // border-collapse: collapse;
   width: 836px;
   border-spacing: 0;
 }
@@ -104,7 +100,6 @@
   .rates {
     padding-top: 106px;
     padding-bottom: 68px;
-    // background: black;
   }
 
   .rates__wrap {
