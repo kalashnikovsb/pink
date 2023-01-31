@@ -1,0 +1,33 @@
+.check-block {
+  display: flex;
+}
+
+.check-block__span {
+  width: 35px;
+  height: 35px;
+  background: $white-color;
+  border: 2px solid $gray-color3;
+}
+
+.check-block__span--radio {
+  width: 37px;
+  height: 37px;
+  border: 2px solid red;
+}
+
+.check-block__input {
+  display: none;
+}
+
+.check-block__label {
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color1;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.check-block__label--radio {
+  margin-top: 5px;
+  margin-left: 29px;
+}

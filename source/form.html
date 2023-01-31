@@ -38,7 +38,6 @@
           </ul>
         </nav>
       </div>
-
       <section class="page-header main-header__page-header">
         <h1 class="page-header__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
       </section>
@@ -46,14 +45,113 @@
 
     <main class="main-content">
       <p class="content-text main-content__content-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="content-text__additional">Пожалуйста, заполните форму ниже:</span></p>
+      <form class="main-form main-content__form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="main-form__content">
+          <fieldset class="main-form__fieldset">
+            <div class="input-block main-form__input-block">
+              <label class="input-block__label" id="customer-surname">Фамилия:</label>
+              <input class="input-block__input" type="text" for="customer-surname" name="customer-surname" placeholder="Укажите фамилию *" required>
+            </div>
+            <div class="input-block main-form__input-block">
+              <label class="input-block__label" id="customer-name">Имя:</label>
+              <input class="input-block__input" type="text" for="customer-name" name="customer-name" placeholder="Введите ваше имя *" required>
+            </div>
+            <div class="input-block main-form__input-block">
+              <label class="input-block__label" id="customer-patronymic">Отчество:</label>
+              <input class="input-block__input" type="text" for="customer-patronymic" name="customer-patronymic" placeholder="Ну и отчество тоже" required>
+            </div>
+          </fieldset>
+        </div>
 
+        <div class="main-form__content main-form__content--colored">
+          <fieldset class="main-form__fieldset main-form__fieldset--achievements">
+            <legend class="main-form__legend main-form__legend--achievements">Ваши безбашенные достижения в путешествии</legend>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="SelfieWithAShark" name="SelfieWithAShark" value="SelfieWithAShark">
+              <label class="check-block__label" id="SelfieWithAShark">Сделал селфи с акулой</label>
+            </div>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="GetBurnedOnTheBeach" name="GetBurnedOnTheBeach" value="GetBurnedOnTheBeach">
+              <label class="check-block__label" id="GetBurnedOnTheBeach">Обгорел на пляже</label>
+            </div>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="SeeChuckNorris" name="SeeChuckNorris" value="SeeChuckNorris">
+              <label class="check-block__label" id="SeeChuckNorris">Видел Чака Норриса</label>
+            </div>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="BuySouvenirs" name="BuySouvenirs" value="BuySouvenirs">
+              <label class="check-block__label" id="BuySouvenirs">Накупил сувениров</label>
+            </div>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="HoldTheTower" name="HoldTheTower" value="HoldTheTower">
+              <label class="check-block__label" id="HoldTheTower">Удержал башню</label>
+            </div>
+            <div class="check-block main-form__check-block">
+              <span class="check-block__span"></span>
+              <input class="check-block__input" type="checkbox" for="SmashTheHotel" name="SmashTheHotel" value="SmashTheHotel">
+              <label class="check-block__label" id="SmashTheHotel">Разгромил отель</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="main-form__content">
+          <fieldset class="main-form__fieldset main-form__fieldset--contacts">
+            <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
+            <div class="input-block main-form__input-block">
+              <label class="input-block__label" id="customer-surname">Номер телефона:</label>
+              <input class="input-block__input" type="text" for="customer-phone" name="customer-surname" placeholder="Номер, пожалуйста" required>
+            </div>
+            <div class="input-block main-form__input-block">
+              <label class="input-block__label" id="customer-name">Адрес почты:</label>
+              <input class="input-block__input" type="text" for="customer-email" name="customer-name" placeholder="Введите почту *" required>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="main-form__content main-form__content--colored">
+          <fieldset class="main-form__fieldset main-form__fieldset--applications">
+            <legend class="main-form__legend main-form__legend--applications">С каким приложением путешествовали?</legend>
+            <div class="check-block main-form__check-block main-form__check-block--radio">
+              <span class="check-block__span check-block__span--radio"></span>
+              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
+              <label class="check-block__label check-block__label--radio" id="">Pink для iOS</label>
+            </div>
+            <div class="check-block main-form__check-block main-form__check-block--radio">
+              <span class="check-block__span check-block__span--radio"></span>
+              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
+              <label class="check-block__label check-block__label--radio" id="">Pink на Android</label>
+            </div>
+            <div class="check-block main-form__check-block main-form__check-block--radio">
+              <span class="check-block__span check-block__span--radio"></span>
+              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
+              <label class="check-block__label check-block__label--radio" id="">Windows Phone</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="main-form__content">
+          <fieldset class="main-form__fieldset main-form__fieldset--review">
+            <legend class="main-form__legend main-form__legend--review">Опишите свои эмоции</legend>
+            <textarea class="textarea main-form__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
+          </fieldset>
+        </div>
+
+        <div class="main-form__content main-form__content--additional">
+          <button class="button main-form__button" type="submit">Отправить форму</button>
+          <p class="main-form__mark"><span class="main-form__mark-inner">*</span> &mdash; Обязательные поля</p>
+        </div>
+      </form>
     </main>
 
     <footer class="main-footer">
       <a class="logo logo--medium main-footer__logo">
         <div class="logo__inner logo__inner--footer"></div>
       </a>
-
       <ul class="socials main-footer__socials">
         <li class="socials__item">
           <a class="socials__link" href="https://twitter.com" aria-label="Ссылка на аккаунт twitter"></a>
@@ -65,13 +163,11 @@
           <a class="socials__link" href="https://youtube.com" aria-label="Ссылка на аккаунт youtube"></a>
         </li>
       </ul>
-
       <div class="copyright main-footer__copyright">
         <span class="copyright__text">Разработано</span>
         <a class="copyright__link"></a>
       </div>
     </footer>
-
     <script src="js/script.js"></script>
   </body>
 </html>
