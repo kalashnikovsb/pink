@@ -44,7 +44,8 @@
     </header>
 
     <main class="main-content">
-      <p class="content-text main-content__content-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="content-text__additional">Пожалуйста, заполните форму ниже:</span></p>
+      <p class="content-text main-content__content-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+        <span class="content-text__additional">Пожалуйста, заполните форму ниже:</span></p>
       <form class="main-form main-content__form" action="https://echo.htmlacademy.ru" method="post">
         <div class="main-form__content">
           <fieldset class="main-form__fieldset">
@@ -63,7 +64,7 @@
           </fieldset>
         </div>
 
-        <div class="main-form__content main-form__content--colored">
+        <div class="main-form__content main-form__content--achievements main-form__content--colored">
           <fieldset class="main-form__fieldset main-form__fieldset--achievements">
             <legend class="main-form__legend main-form__legend--achievements">Ваши безбашенные достижения в путешествии</legend>
             <div class="check-block main-form__check-block">
@@ -99,7 +100,7 @@
           </fieldset>
         </div>
 
-        <div class="main-form__content">
+        <div class="main-form__content main-form__content--contacts">
           <fieldset class="main-form__fieldset main-form__fieldset--contacts">
             <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
             <div class="input-block main-form__input-block">
@@ -113,28 +114,28 @@
           </fieldset>
         </div>
 
-        <div class="main-form__content main-form__content--colored">
+        <div class="main-form__content main-form__content--applications main-form__content--colored">
           <fieldset class="main-form__fieldset main-form__fieldset--applications">
             <legend class="main-form__legend main-form__legend--applications">С каким приложением путешествовали?</legend>
             <div class="check-block main-form__check-block main-form__check-block--radio">
               <span class="check-block__span check-block__span--radio"></span>
-              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
-              <label class="check-block__label check-block__label--radio" id="">Pink для iOS</label>
+              <input class="check-block__input check-block__input--radio" type="radio" for="ios" name="ios" value="ios">
+              <label class="check-block__label check-block__label--radio" id="ios">Pink для iOS</label>
             </div>
             <div class="check-block main-form__check-block main-form__check-block--radio">
               <span class="check-block__span check-block__span--radio"></span>
-              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
-              <label class="check-block__label check-block__label--radio" id="">Pink на Android</label>
+              <input class="check-block__input check-block__input--radio" type="radio" for="Android" name="Android" value="Android">
+              <label class="check-block__label check-block__label--radio" id="Android">Pink на Android</label>
             </div>
             <div class="check-block main-form__check-block main-form__check-block--radio">
               <span class="check-block__span check-block__span--radio"></span>
-              <input class="check-block__input check-block__input--radio" type="radio" for="" name="" value="">
-              <label class="check-block__label check-block__label--radio" id="">Windows Phone</label>
+              <input class="check-block__input check-block__input--radio" type="radio" for="windows" name="windows" value="windows">
+              <label class="check-block__label check-block__label--radio" id="windows">Windows Phone</label>
             </div>
           </fieldset>
         </div>
 
-        <div class="main-form__content">
+        <div class="main-form__content main-form__content--review">
           <fieldset class="main-form__fieldset main-form__fieldset--review">
             <legend class="main-form__legend main-form__legend--review">Опишите свои эмоции</legend>
             <textarea class="textarea main-form__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
@@ -142,7 +143,7 @@
         </div>
 
         <div class="main-form__content main-form__content--additional">
-          <button class="button main-form__button" type="submit">Отправить форму</button>
+          <button class="button main-form__button button--wide" type="submit">Отправить форму</button>
           <p class="main-form__mark"><span class="main-form__mark-inner">*</span> &mdash; Обязательные поля</p>
         </div>
       </form>
