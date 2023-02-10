@@ -31,3 +31,9 @@
   margin-top: 5px;
   margin-left: 29px;
 }
+
+@media (min-width: $tablet-width) {
+  .check-block__label--radio {
+    margin-left: 20px;
+  }
+}

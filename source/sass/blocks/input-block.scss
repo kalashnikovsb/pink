@@ -47,5 +47,28 @@
 
   .input-block__input {
     width: 100%;
+    box-sizing: border-box;
   }
+
+  .input-block--contacts {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .input-block__label--contacts {
+    margin-top: 10px;
+    margin-left: 19px;
+  }
+
+  .input-block__input--contacts {
+
+  }
+
+
+
+
+
+
+
+
 }

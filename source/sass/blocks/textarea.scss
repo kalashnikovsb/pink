@@ -10,3 +10,10 @@
   line-height: 30px;
   color: $blue-color1;
 }
+
+@media (min-width: $tablet-width) {
+  .textarea {
+    height: 162px;
+    padding-top: 14px;
+  }
+}

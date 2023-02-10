@@ -126,63 +126,126 @@
     padding-right: 20px;
   }
 
+
+
   .main-form__content {
     order: 1;
-    margin-bottom: 59px;
-  }
-
-  .main-form__fieldset {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .main-form__legend {
-    position: static;
-    top: 0;
-    margin-bottom: 0;
+    margin-bottom: 53px;
   }
 
   .main-form__content--colored {
     background: $white-color;
   }
 
+  .main-form__fieldset {
+    padding-top: 52px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend {
+    line-height: 30px;
+    position: static;
+    top: 0;
+    margin-bottom: 0;
+  }
+
+  .main-form__input-block {
+    margin-bottom: 52px;
+  }
+
+
+
   .main-form__content--achievements {
     order: 4;
   }
 
+  .main-form__fieldset--achievements {
+    border: 2px solid red;
+    padding-top: 37px;
+    padding-bottom: 48px;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+
+
   .main-form__content--contacts {
     order: 3;
+    margin-bottom: 53px;
   }
+
+  .main-form__fieldset--contacts {
+    padding-top: 29px;
+    padding-bottom: 22px;
+    padding-left: 58px;
+    padding-right: 58px;
+    border: 2px solid red;
+  }
+
+  .main-form__legend--contacts {
+    display: block;
+  }
+
+  .main-form__input-block--contacts {
+    margin-bottom: 24px;
+  }
+
+
 
   .main-form__content--applications {
     order: 2;
   }
 
   .main-form__fieldset--applications {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 37px;
+    padding-bottom: 52px;
+    padding-left: 58px;
+    padding-right: 58px;
+    border: 2px solid red;
   }
 
   .main-form__legend--applications {
     margin-bottom: 0;
-    // top: 0;
   }
+
+
 
   .main-form__content--review {
     order: 5;
+    margin-bottom: 66px;
   }
+
+  .main-form__fieldset--review {
+    border: 2px solid red;
+    padding-top: 30px;
+    padding-bottom: 51px;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+
 
   .main-form__content--additional {
     order: 6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 48px;
   }
 
-  .main-form__fieldset {
-    padding-top: 52px;
+  .main-form__button {
+    margin-bottom: 0;
   }
 
-  .main-form__input-block {
-    margin-bottom: 52px;
+  .main-form__mark {
+
   }
+
+
 }

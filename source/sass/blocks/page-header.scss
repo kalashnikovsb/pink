@@ -26,3 +26,12 @@
     line-height: 68px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    padding-top: 59px;
+    padding-bottom: 89px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}

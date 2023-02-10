@@ -17,7 +17,7 @@
   text-transform: uppercase;
 }
 
-.button--wide {
+.button--submit {
   width: 100%;
 }
 
@@ -36,6 +36,10 @@
 
 @media (min-width: $tablet-width) {
   .button--rounded {
+    width: 300px;
+  }
+
+  .button--submit {
     width: 300px;
   }
 }
