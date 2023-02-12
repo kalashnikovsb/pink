@@ -246,6 +246,202 @@
   .main-form__mark {
 
   }
+}
+
+@media (min-width: $desktop-width) {
+  .main-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 46px;
+    padding-bottom: 0;
+  }
+
+  .main-form__content {
+    box-sizing: border-box;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .main-form__content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: $red-color1;
+    text-transform: uppercase;
+    text-align: center;
+    background: $white-color;
+  }
+
+  .main-form__fieldset {
+    padding-top: 19px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend {
+    display: none;
+  }
+
+  .main-form__input-block {
+    margin-bottom: 53px;
+  }
 
 
+
+
+
+
+
+  .main-form__content--achievements {
+    grid-column: 1 / -1;
+    padding-top: 13px;
+  }
+
+  .main-form__content--achievements::before {
+    content: "Ваши безбашенные достижения в путешествии";
+    margin-left: -218px;
+    width: 436px;
+  }
+
+  .main-form__fieldset--achievements {
+    padding-top: 52px;
+    padding-bottom: 0;
+    padding-left: 58px;
+    padding-right: 58px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px 55px;
+  }
+
+  .main-form__legend--achievements {
+
+  }
+
+  .main-form__check-block--selfie {
+    order: 1;
+  }
+
+  .main-form__check-block--beach {
+    order: 4;
+  }
+
+  .main-form__check-block--norris {
+    order: 2;
+  }
+
+  .main-form__check-block--souvenirs {
+    order: 5;
+  }
+
+  .main-form__check-block--tower {
+    order: 3;
+  }
+
+  .main-form__check-block--hotel {
+    order: 6;
+  }
+
+
+
+
+
+
+
+
+
+  .main-form__content--contacts {
+    grid-column: 1 / -1;
+    padding-top: 13px;
+    margin-bottom: 52px;
+  }
+
+  .main-form__fieldset--contacts {
+    padding-top: 42px;
+    padding-bottom: 8px;
+    padding-left: 58px;
+    padding-right: 58px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-form__content--contacts::before {
+    content: "Контактная информация";
+    margin-left: -130px;
+    width: 260px;
+  }
+
+  .main-form__input-block--contacts {
+    margin: 0;
+
+  }
+
+
+
+
+
+
+
+  .main-form__content--applications {
+    padding-top: 13px;
+    margin-bottom: 52px;
+  }
+
+  .main-form__content--applications::before {
+    content: "С каким приложением путешествовали?";
+    margin-left: -184px;
+    width: 368px;
+  }
+
+  .main-form__fieldset--applications {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  .main-form__legend--applications {
+    background: white;
+  }
+
+  .main-form__check-block--radio {
+    margin-bottom: 35px;
+  }
+
+
+
+
+
+
+
+  .main-form__content--review {
+    grid-column: 1 / -1;
+    padding-top: 13px;
+  }
+
+  .main-form__content--review::before {
+    content: "Опишите свои эмоции";
+    margin-left: -130px;
+    width: 260px;
+  }
+
+
+
+
+
+
+
+  .main-form__content--additional {
+    grid-column: 1 / -1;
+  }
 }

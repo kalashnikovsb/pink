@@ -64,6 +64,12 @@
 
   }
 
+  @media (min-width: $desktop-width) {
+    .input-block--contacts {
+      width: calc(50% - 35px);
+    }
+  }
+
 
 
 
