@@ -18,10 +18,17 @@
   padding-right: 20px;
 }
 
-.content-text--catalog {
+.content-text--catalog-top {
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 50px;
+}
+
+.content-text--catalog-bottom {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media (min-width: $tablet-width) {
