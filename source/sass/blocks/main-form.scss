@@ -98,6 +98,10 @@
   color: $red-color1;
 }
 
+.main-form__mark-hidden {
+  display: none;
+}
+
 .main-form__input-block {
   margin-bottom: 17px;
 }
@@ -306,6 +310,7 @@
   .main-form__content--achievements {
     grid-column: 1 / -1;
     padding-top: 13px;
+    margin-bottom: 52px;
   }
 
   .main-form__content--achievements::before {
@@ -316,7 +321,7 @@
 
   .main-form__fieldset--achievements {
     padding-top: 52px;
-    padding-bottom: 0;
+    padding-bottom: 12px;
     padding-left: 58px;
     padding-right: 58px;
     display: grid;
@@ -427,12 +432,20 @@
   .main-form__content--review {
     grid-column: 1 / -1;
     padding-top: 13px;
+    margin-bottom: 65px;
   }
 
   .main-form__content--review::before {
     content: "Опишите свои эмоции";
     margin-left: -130px;
     width: 260px;
+  }
+
+  .main-form__fieldset--review {
+    padding-top: 42px;
+    padding-bottom: 43px;
+    padding-left: 58px;
+    padding-right: 58px;
   }
 
 
@@ -443,5 +456,13 @@
 
   .main-form__content--additional {
     grid-column: 1 / -1;
+  }
+
+  .main-form__mark {
+    min-width: 314px;
+  }
+
+  .main-form__mark-hidden {
+    display: inline;
   }
 }

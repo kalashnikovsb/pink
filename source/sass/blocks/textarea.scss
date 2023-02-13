@@ -17,3 +17,10 @@
     padding-top: 14px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .textarea {
+    height: 98px;
+    padding-top: 13px;
+  }
+}

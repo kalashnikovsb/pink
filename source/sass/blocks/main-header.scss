@@ -41,6 +41,7 @@
 @media (min-width: $desktop-width) {
   .main-header__top {
     display: flex;
+    justify-content: space-between;
     padding-top: 27px;
     padding-bottom: 17px;
     padding-left: 130px;

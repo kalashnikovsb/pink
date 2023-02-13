@@ -16,7 +16,7 @@
     <header class="main-header">
       <div class="main-header__top">
         <div class="main-header__inner">
-          <a class="logo main-header__logo">
+          <a class="logo main-header__logo" href="index.html">
             <div class="logo__inner"></div>
           </a>
           <button class="nav-button main-header__nav-button" aria-label="Открыть или закрыть меню навигации"></button>
@@ -104,12 +104,12 @@
           <fieldset class="main-form__fieldset main-form__fieldset--contacts">
             <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
             <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
-              <label class="input-block__label input-block__label--contacts" id="customer-surname">Номер телефона</label>
-              <input class="input-block__input input-block__input--contacts" type="text" for="customer-phone" name="customer-surname" placeholder="Номер, пожалуйста" required>
+              <label class="input-block__label input-block__label--contacts" id="customer-phone">Номер телефона</label>
+              <input class="input-block__input input-block__input--contacts" type="text" for="customer-phone" name="customer-phone" placeholder="Номер, пожалуйста" required>
             </div>
             <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
-              <label class="input-block__label input-block__label--contacts" id="customer-name">Адрес почты</label>
-              <input class="input-block__input input-block__input--contacts" type="text" for="customer-email" name="customer-name" placeholder="Введите почту *" required>
+              <label class="input-block__label input-block__label--contacts" id="customer-email">Адрес почты</label>
+              <input class="input-block__input input-block__input--contacts" type="email" for="customer-email" name="customer-email" placeholder="Введите почту *" required>
             </div>
           </fieldset>
         </div>
@@ -144,29 +144,29 @@
 
         <div class="main-form__content main-form__content--additional">
           <button class="button main-form__button button--submit" type="submit">Отправить форму</button>
-          <p class="main-form__mark"><span class="main-form__mark-inner">*</span> &mdash; Обязательные поля</p>
+          <p class="main-form__mark"><span class="main-form__mark-inner">*</span> &mdash; Обязательные <span class="main-form__mark-hidden">для заполнения</span> поля</p>
         </div>
       </form>
     </main>
 
     <footer class="main-footer">
-      <a class="logo logo--medium main-footer__logo">
+      <a class="logo logo--medium main-footer__logo" href="index.html">
         <div class="logo__inner logo__inner--footer"></div>
       </a>
       <ul class="socials main-footer__socials">
         <li class="socials__item">
-          <a class="socials__link" href="https://twitter.com" aria-label="Ссылка на аккаунт twitter"></a>
+          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт twitter"></a>
         </li>
         <li class="socials__item">
-          <a class="socials__link" href="https://facebook.com" aria-label="Ссылка на аккаунт facebook"></a>
+          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт facebook"></a>
         </li>
         <li class="socials__item">
-          <a class="socials__link" href="https://youtube.com" aria-label="Ссылка на аккаунт youtube"></a>
+          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт youtube"></a>
         </li>
       </ul>
       <div class="copyright main-footer__copyright">
         <span class="copyright__text">Разработано</span>
-        <a class="copyright__link"></a>
+        <a class="copyright__link" href="https://htmlacademy.ru"></a>
       </div>
     </footer>
     <script src="js/script.js"></script>
