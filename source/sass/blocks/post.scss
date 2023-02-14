@@ -1,35 +1,57 @@
 .post {
-
+  background: white;
 }
 
 .post--panorama {
-
+  width: 100%;
 }
 
 .post__full-image-link {
-
+  width: 280px;
+  height: 180px;
+  display: block;
+  background: black;
 }
 
 .post__full-image-link--panorama {
-
+  width: 100%;
 }
 
 .post__image {
-
+  width: 280px;
+  height: 180px;
+  display: block;
+  background: black;
 }
 
 .post__image--panorama {
+  width: 100%;
+}
 
+.post__inner {
+  background: yellow;
+}
+
+.post__user {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .post__user-name {
 
 }
 
-.post__user-text {
+.post__user-time {
 
 }
 
-.post__like {
+.post__user-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.post__like {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
 }
