@@ -49,17 +49,17 @@
       <section class="posts main-content__posts">
         <h2 class="visually-hidden">Посты с фотографиями пользователей</h2>
 
-        <article class="post posts__post post--panorama">
+        <article class="post posts__panorama post--panorama">
           <h3 class="visually-hidden">Пользовательский пост</h3>
           <a class="post__full-image-link post__full-image-link--panorama" href="blank.html">
             <img class="post__image post__image--panorama" src="#" width="280" height="180" alt="Панорама дня">
           </a>
-          <div class="post__inner">
+          <div class="post__inner post__inner--panorama">
             <p class="post__user">
               <span class="post__user-name">Анна</span>
               <span class="post__post-time">(5 минут назад)</span>
             </p>
-            <p class="post__user-text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <p class="post__user-text">Прыгать или нет? Напишите в комментарии свой совет и смотрите&nbsp;прямую&nbsp;трансляцию в перископе, задавайте&nbsp;свои&nbsp;вопросы!</p>
             <a class="post__like" href="blank.html">Нравится: 215</a>
           </div>
         </article>
@@ -73,7 +73,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Левон</span>
-                  <span class="post__user-time">(5 часов назад)</span>
+                  <span class="post__post-time">(5 часов назад)</span>
                 </p>
                 <p class="post__user-text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
                 <a class="post__like" href="blank.html">Нравится: 356</a>
@@ -89,7 +89,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Антон</span>
-                  <span class="post__user-time">(12 часов назад)</span>
+                  <span class="post__post-time">(12 часов назад)</span>
                 </p>
                 <p class="post__user-text">Соседи будут рады!</p>
                 <a class="post__like" href="blank.html">Нравится: 666</a>
@@ -105,7 +105,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Борис</span>
-                  <span class="post__user-time">(20 часов назад)</span>
+                  <span class="post__post-time">(20 часов назад)</span>
                 </p>
                 <p class="post__user-text">Здесь могла быть ваша цитата о высоком и вечном.</p>
                 <a class="post__like" href="blank.html">Нравится: 215</a>
@@ -121,7 +121,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Сергей</span>
-                  <span class="post__user-time">(25 часов назад)</span>
+                  <span class="post__post-time">(25 часов назад)</span>
                 </p>
                 <p class="post__user-text">Самая кубанская в мире!</p>
                 <a class="post__like" href="blank.html">Нравится: 4</a>
@@ -137,7 +137,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Максим</span>
-                  <span class="post__user-time">(40 часов назад)</span>
+                  <span class="post__post-time">(40 часов назад)</span>
                 </p>
                 <p class="post__user-text">Где снег-то?</p>
                 <a class="post__like" href="blank.html">Нравится: 150</a>
@@ -153,7 +153,7 @@
               <div class="post__inner">
                 <p class="post__user">
                   <span class="post__user-name">Надежда</span>
-                  <span class="post__user-time">(45 часов назад)</span>
+                  <span class="post__post-time">(45 часов назад)</span>
                 </p>
                 <p class="post__user-text">Всем GM и взаимные лайки!</p>
                 <a class="post__like" href="blank.html">Нравится: 2560</a>
@@ -163,7 +163,39 @@
         </ul>
       </section>
 
-      <p class="content-text main-content__content-text-bottom content-text--catalog-bottom">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+      <p class="content-text main-content__content-text-bottom content-text--catalog-bottom">Затмите их всех! Выкладывайте&nbsp;все,&nbsp;что&nbsp;накопилось в телефоне!</p>
+
+      <form class="editor main-content__editor" action="https://echo.htmlacademy.ru" method="post">
+        <h2 class="visually-hidden">Редактор изображения</h2>
+        <div class="editor__inner">
+          <img class="editor__image" src="#" width="280px" height="374" alt="Текущее изображение для редактирования">
+          <ul class="editor__settings-list">
+            <li class="editor__setting-item editor__setting-item--first editor__setting-item--active">
+              <button class="editor__setting-button editor__setting-button--first editor__setting-button--active" type="button"></button>
+              <div class="editor__setting-line">
+                <div class="editor__setting-toggle"></div>
+              </div>
+            </li>
+            <li class="editor__setting-item editor__setting-item--second">
+              <button class="editor__setting-button editor__setting-button--second editor__setting-button--active" type="button"></button>
+              <div class="editor__setting-line">
+                <div class="editor__setting-toggle"></div>
+              </div>
+            </li>
+            <li class="editor__setting-item editor__setting-item--third">
+              <button class="editor__setting-button editor__setting-button--third editor__setting-button--active" type="button"></button>
+              <div class="editor__setting-line">
+                <div class="editor__setting-toggle"></div>
+              </div>
+            </li>
+          </ul>
+          <div class="editor__setting-line editor__setting-line--active">
+            <div class="editor__setting-toggle"></div>
+          </div>
+          <button class="button editor__button button--editor" type="submit">Запостить</button>
+          <button class="button editor__button button--editor" type="reset">Отмена</button>
+        </div>
+      </form>
     </main>
 
     <footer class="main-footer">

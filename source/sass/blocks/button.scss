@@ -34,6 +34,19 @@
   text-transform: none;
 }
 
+.button--editor {
+  width: 100%;
+  border: 3px solid $red-color1;
+  background: $white-color;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 27px 27px 27px 27px;
+  color: $red-color1;
+  text-transform: none;
+}
+
 @media (min-width: $tablet-width) {
   .button--rounded {
     width: 300px;

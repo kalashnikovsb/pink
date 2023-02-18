@@ -1,0 +1,111 @@
+.editor {
+  background: tomato;
+}
+
+.editor__inner {
+  background: lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 29px;
+}
+
+.editor__image {
+  display: block;
+  width: 100%;
+  height: 374px;
+  background: black;
+  margin-bottom: 42px;
+}
+
+.editor__settings-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
+  padding-right: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  background: gray;
+}
+
+.editor__settings__item {
+  background: black;
+}
+
+.editor__setting-button {
+  background: red;
+  border: none;
+}
+
+.editor__settings__item--first {
+  width: 44px;
+  height: 44px;
+}
+
+.editor__setting-button--first {
+  width: 44px;
+  height: 44px;
+}
+
+.editor__settings__item--second {
+  width: 48px;
+  height: 43px;
+}
+
+.editor__setting-button--second {
+  width: 48px;
+  height: 43px;
+}
+
+.editor__settings__item--third {
+  width: 32px;
+  height: 32px;
+}
+
+.editor__setting-button--third {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+.editor__setting-line {
+  display: none;
+}
+
+.editor__setting-line--active {
+  display: block;
+  background: red;
+  margin: auto;
+  width: calc(100% - 40px);
+  height: 14px;
+  position: relative;
+  margin-bottom: 67px;
+}
+
+.editor__setting-line::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: black;
+}
+
+.editor__setting-toggle {
+  width: 14px;
+  height: 14px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  right: 33px;
+}
+
+.editor__button {
+  margin-bottom: 12px;
+}

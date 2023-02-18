@@ -1,9 +1,21 @@
 .page-body {
-  width: 320px;
+  width: $mobile-width;
   margin: 0 auto;
   min-height: 100%;
   display: grid;
   align-content: start;
   grid-template-rows: min-content 1fr min-content;
   font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: $tablet-width) {
+  .page-body {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-body {
+    width: $desktop-width;
+  }
 }
