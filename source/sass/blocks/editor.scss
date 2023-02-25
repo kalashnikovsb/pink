@@ -22,7 +22,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 29px;
+  margin-bottom: 33px;
   padding-right: 12px;
   display: flex;
   flex-wrap: wrap;
@@ -32,7 +32,7 @@
   background: gray;
 }
 
-.editor__settings__item {
+.editor__setting-item {
   background: black;
 }
 
@@ -41,7 +41,7 @@
   border: none;
 }
 
-.editor__settings__item--first {
+.editor__setting-item--first {
   width: 44px;
   height: 44px;
 }
@@ -51,7 +51,7 @@
   height: 44px;
 }
 
-.editor__settings__item--second {
+.editor__setting-item--second {
   width: 48px;
   height: 43px;
 }
@@ -61,7 +61,7 @@
   height: 43px;
 }
 
-.editor__settings__item--third {
+.editor__setting-item--third {
   width: 32px;
   height: 32px;
 }
@@ -70,8 +70,6 @@
   width: 32px;
   height: 32px;
 }
-
-
 
 .editor__setting-line {
   display: none;
@@ -108,4 +106,165 @@
 
 .editor__button {
   margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: $tablet-width) {
+  .editor {
+
+  }
+
+  .editor__inner {
+    padding-top: 56px;
+    height: 400px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 0 20px;
+    grid-template-rows: 267px 79px 79px;
+  }
+
+  .editor__image {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    width: 300px;
+    height: 400px;
+  }
+
+  .editor__settings-list {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    margin: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .editor__setting-item {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    padding-left: 29px;
+    padding-right: 18px;
+  }
+
+  .editor__setting-button {
+    width: 22px;
+    height: 22px;
+  }
+
+  .editor__settings-item--first {
+
+  }
+
+  .editor__setting-button--first {
+    width: 22px;
+    height: 22px;
+  }
+
+  .editor__setting-item--second {
+    padding-top: 26px;
+    padding-bottom: 24px;
+    padding-left: 28px;
+    padding-right: 18px;
+  }
+
+  .editor__setting-button--second {
+    width: 24px;
+    height: 22px;
+    margin-top: 2px;
+  }
+
+  .editor__setting-item--third {
+    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 18px;
+  }
+
+  .editor__setting-button--third {
+    width: 16px;
+    height: 16px;
+  }
+
+  .editor__setting-line {
+    display: block;
+    width: 202px;
+    height: 2px;
+    background: black;
+    position: relative;
+  }
+
+  .editor__setting-line::before {
+    display: none;
+  }
+
+  .editor__setting-line--one {
+    display: none;
+  }
+
+  .editor__setting-toggle {
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 25px;
+  }
+
+  .editor__setting-toggle--first {
+    right: 0;
+    left: auto;
+  }
+
+  .editor__setting-toggle--second {
+
+  }
+
+  .editor__setting-toggle--third {
+
+  }
+
+  .editor__button {
+
+  }
+
+  .editor__button--submit {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    height: 55px;
+    margin-left: 27px;
+  }
+
+  .editor__button--cancel {
+    grid-column: 2 / -1;
+    grid-row: 3 / -1;
+    height: 55px;
+    margin-left: 27px;
+  }
 }

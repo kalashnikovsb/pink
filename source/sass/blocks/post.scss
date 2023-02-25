@@ -114,17 +114,22 @@
   }
 
   .post__full-image-link {
-
+    height: 300px;
   }
 
   .post__image {
-
+    height: 300px;
   }
 
   .post__inner {
-    min-height: 119px;
+    min-height: 109px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
   }
 
   .post__user {
@@ -137,7 +142,18 @@
 
   .post__like {
     order: 3;
+    flex-direction: row-reverse;
+    width: 100%;
     margin-top: auto;
+  }
+
+  .post__like-button {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .post__like-text {
+
   }
 
 
@@ -186,6 +202,7 @@
 
   .post__like--panorama {
     order: 2;
+    width: auto;
     flex-direction: row-reverse;
     padding-top: 2px;
     margin-top: 0;
