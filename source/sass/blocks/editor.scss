@@ -132,7 +132,7 @@
   .editor__inner {
     padding-top: 56px;
     height: 400px;
-    padding-bottom: 0;
+    padding-bottom: 55px;
     display: grid;
     grid-template-columns: 300px 300px;
     gap: 0 20px;
@@ -238,20 +238,12 @@
   }
 
   .editor__setting-toggle--first {
-    right: 0;
+    right: 28px;
     left: auto;
   }
 
-  .editor__setting-toggle--second {
-
-  }
-
   .editor__setting-toggle--third {
-
-  }
-
-  .editor__button {
-
+    left: 96px;
   }
 
   .editor__button--submit {
