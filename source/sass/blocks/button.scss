@@ -47,6 +47,11 @@
   text-transform: none;
 }
 
+.button--popup {
+  width: 100%;
+
+}
+
 @media (min-width: $tablet-width) {
   .button--rounded {
     width: 300px;
@@ -66,5 +71,9 @@
     font-size: 21px;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .button--editor {
+    width: 183px;
   }
 }
