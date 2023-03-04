@@ -64,6 +64,10 @@
   .button--editor {
     width: 260px;
   }
+
+  .button--popup {
+    width: 300px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -75,5 +79,9 @@
 
   .button--editor {
     width: 183px;
+  }
+
+  .button--success {
+    width: 460px;
   }
 }
