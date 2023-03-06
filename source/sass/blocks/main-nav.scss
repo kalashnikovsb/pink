@@ -25,6 +25,14 @@
   text-decoration: none;
 }
 
+.main-nav__link:hover {
+  color: $red-color1;
+}
+
+.main-nav__link:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $desktop-width) {
   .main-nav__list {
     display: flex;
@@ -52,5 +60,34 @@
     line-height: 18px;
     font-weight: 400;
     text-transform: initial;
+    position: relative;
+  }
+
+  .main-nav__link:hover {
+    color: $red-color1;
+  }
+
+  .main-nav__link:active {
+    color: $white-color;
+    opacity: 0.3;
+  }
+
+  .main-nav__link--active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -19px;
+    width: 100%;
+    height: 2px;
+    background: $white-color;
+  }
+
+  .main-nav__link--active:hover {
+    color: $white-color;
+  }
+
+  .main-nav__link--active:active {
+    color: $white-color;
+    opacity: 1;
   }
 }

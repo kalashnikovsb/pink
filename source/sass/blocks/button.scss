@@ -17,6 +17,20 @@
   text-transform: uppercase;
 }
 
+.button:hover {
+  background: $green-color2;
+}
+
+.button:active {
+  color: rgba(255,255,255,0.3);
+}
+
+.button:disabled {
+  color: $white-color;
+  background: $gray-color3;
+
+}
+
 .button--submit {
   width: 100%;
 }
@@ -24,7 +38,7 @@
 .button--rounded {
   width: 280px;
   border: 3px solid $white-color;
-  background: $blue-color3;
+  background: transparent;
   padding-top: 10px;
   padding-bottom: 9px;
   padding-left: 10px;
@@ -32,12 +46,22 @@
   border-radius: 27px 27px 27px 27px;
   color: $white-color;
   text-transform: none;
+  text-decoration: none;
+}
+
+.button--rounded:hover {
+  background: $white-color;
+  color: $red-color1;
+}
+
+.button--rounded:active {
+  color: rgba(210,40,86,0.3);
 }
 
 .button--editor {
   width: 100%;
   border: 3px solid $red-color1;
-  background: $white-color;
+  background: transparent;
   padding-top: 10px;
   padding-bottom: 9px;
   padding-left: 10px;
@@ -45,6 +69,33 @@
   border-radius: 27px 27px 27px 27px;
   color: $red-color1;
   text-transform: none;
+}
+
+.button--submit:hover {
+  background: $red-color1;
+  color: $white-color;
+}
+
+.button--submit:active {
+  color: rgba(255,255,255,0.3);
+  background: $red-color1;
+  border: 3px solid $red-color1;
+}
+
+.button--cancel {
+  border-color: $blue-color1;
+  color: $blue-color1;
+  opacity: 0.1;
+}
+
+.button--cancel:hover {
+  background: transparent;
+  opacity: 0.3;
+}
+
+.button--cancel:active {
+  background: $blue-color1;
+  color: $white-color;
 }
 
 .button--popup {
