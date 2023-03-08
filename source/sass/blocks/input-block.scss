@@ -23,8 +23,16 @@
   line-height: 30px;
   border-radius: 3px;
   background: $white-color;
+  color: $blue-color1;
   border: 2px solid $gray-color3;
-  border: 2px solid red;
+}
+
+.input-block__input:hover {
+  border: 2px solid $blue-color1;
+}
+
+.input-block__input:active {
+  border: 2px solid $red-color1;
 }
 
 .input-block__input::placeholder {
@@ -60,21 +68,9 @@
     margin-left: 19px;
   }
 
-  .input-block__input--contacts {
-
-  }
-
   @media (min-width: $desktop-width) {
     .input-block--contacts {
       width: calc(50% - 35px);
     }
   }
-
-
-
-
-
-
-
-
 }

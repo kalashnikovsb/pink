@@ -4,7 +4,6 @@
   padding: 0;
   padding-top: 3px;
   padding-bottom: 3px;
-  background: red;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -21,16 +20,35 @@
 
 .slider-controls__button {
   display: block;
-  background-color: $gray-color2;
+  background-color: $blue-color1;
   border: none;
   width: 6px;
   height: 6px;
   padding: 0;
   border-radius: 50%;
+  opacity: 0.3;
+}
+
+.slider-controls__button:hover {
+  opacity: 0.6;
+}
+
+.slider-controls__button:active {
+  opacity: 0.1;
 }
 
 .slider-controls__button--active {
   box-shadow: 0 0 0 3px $blue-color1;
+  background: $white-color;
+  opacity: 1;
+}
+
+.slider-controls__button--active:hover {
+  opacity: 1;
+}
+
+.slider-controls__button--active:active {
+  opacity: 1;
 }
 
 

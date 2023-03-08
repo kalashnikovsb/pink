@@ -1,5 +1,4 @@
 .slider-reviews {
-  background: yellow;
   text-align: center;
   padding-top: 42px;
   padding-bottom: 30px;
@@ -15,7 +14,6 @@
 }
 
 .slider-reviews__slider-item {
-  background: lightblue;
   display: flex;
   flex-direction: column;
 }
@@ -121,6 +119,7 @@
     font-size: 0;
     border: 0;
     cursor: pointer;
+    display: block;
   }
 
   .slider-reviews__next {
@@ -133,5 +132,6 @@
     font-size: 0;
     border: 0;
     cursor: pointer;
+    display: block;
   }
 }

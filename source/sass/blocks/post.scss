@@ -1,5 +1,5 @@
 .post {
-  background: white;
+
 }
 
 .post--panorama {
@@ -31,7 +31,7 @@
 }
 
 .post__inner {
-  background: yellow;
+  background: $gray-color1;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 17px;
@@ -74,7 +74,7 @@
 .post__like {
   margin-top: 0;
   margin-bottom: 0;
-  background: white;
+  background: transparent;
   display: flex;
   align-items: top;
   flex-wrap: wrap;

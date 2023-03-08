@@ -1,5 +1,4 @@
 .features {
-  background: lightblue;
   padding-top: 40px;
 }
 
@@ -31,7 +30,6 @@
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
-  background: tomato;
 }
 
 .features__item {
@@ -86,7 +84,7 @@
     padding-top: 77px;
     padding-bottom: 43px;
     text-align: left;
-    background: tomato;
+    background-size: cover;
   }
 
   .features__item {
@@ -143,7 +141,6 @@
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: center;
-    background: yellow;
   }
 
   .features__item:nth-of-type(3n) {
