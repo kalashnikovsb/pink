@@ -12,247 +12,37 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body class="page-body">
     <header class="main-header">
       <div class="main-header__top">
-        <div class="main-header__inner">
-          <a class="logo main-header__logo">
-            <div class="logo__inner"></div>
-          </a>
-          <button class="nav-button main-header__nav-button" aria-label="Открыть или закрыть меню навигации"></button>
-        </div>
-        <nav class="main-nav main-header__main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__item">
-              <a class="main-nav__link main-nav__link--active">Главная</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="catalog.html">Фотографии</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="form.html">Конкурс</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="https://htmlacademy.ru">HTML Academy</a>
-            </li>
-          </ul>
-        </nav>
+        <a class="logo main-header__logo" href="blank.html">
+          <img class="logo__image" src="#" alt="Логотип Pink">
+        </a>
+        <button class="nav-button main-header__nav-button" type="button" aria-label="Открыть или скрыть навигацию"></button>
       </div>
-      <section class="promo main-header__promo">
-        <h2 class="visually-hidden">Промо раздел</h2>
-        <p class="promo__title">Взгляните на жизнь иначе!</p>
-        <a class="button button--rounded promo__button" href="blank.html">Скачать приложение</a>
-        <ul class="promo__apps-list">
-          <li class="promo__apps-item">
-            <a class="promo__apps-link promo__apps-link--apple" href="blank.html"></a>
+
+      <nav class="main-nav main-header__main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--active">Главная</a>
           </li>
-          <li class="promo__apps-item">
-            <a class="promo__apps-link promo__apps-link--android" href="blank.html"></a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Фотографии</a>
           </li>
-          <li class="promo__apps-item">
-            <a class="promo__apps-link promo__apps-link--microsoft" href="blank.html"></a>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="https://htmlacademy.ru">HTML Academy</a>
           </li>
         </ul>
-        <p class="promo__available-for">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-      </section>
+      </nav>
     </header>
+
     <main class="main-content">
-      <h1 class="visually-hidden">Приложение Pink</h1>
-      <section class="features main-content__features">
-        <h2 class="visually-hidden">Преимущества приложения</h2>
-        <div class="features__title-wrap">
-          <p class="features__title">Устали от серости мегаполиса?</p>
-          <p class="features__title">Нам есть, что вам предложить!</p>
-        </div>
-        <ul class="features__list">
-          <li class="features__item">
-            <p class="features__caption">Поднимает настроение</p>
-            <p class="features__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-          </li>
-          <li class="features__item">
-            <p class="features__caption">Меняет мир вокруг</p>
-            <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы<span class="features__text-break"></span> усилить эффект</p>
-          </li>
-          <li class="features__item">
-            <p class="features__caption">Заводит новых друзей</p>
-            <p class="features__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-          </li>
-        </ul>
-      </section>
-      <section class="special main-content__special">
-        <p class="special__title">Эффект на&nbsp;24&nbsp;часа!</p>
-        <p class="special__text">Британские ученые провели исследования и доказали, что&nbsp;положительный&nbsp;эффект от&nbsp;использования приложения длится целые сутки!</p>
-        <a class="special__link" href="blank.html">Узнать больше об исследовании</a>
-      </section>
-      <section class="slider-reviews main-content__slider-reviews">
-        <h2 class="visually-hidden">Отзывы пользователей</h2>
-        <ul class="slider-reviews__slider-list">
-          <li class="slider-reviews__slider-item">
-            <p class="slider-reviews__slider-user">Николай Петров</p>
-            <p class="slider-reviews__slider-user-info">25 лет, водитель трамвая</p>
-            <p class="slider-reviews__slider-text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-          </li>
-          <li class="slider-reviews__slider-item visually-hidden">
-            <p class="slider-reviews__slider-user">Иван Иванов</p>
-            <p class="slider-reviews__slider-user-info">20 лет, водитель автобуса</p>
-            <p class="slider-reviews__slider-text">Мажоритарная избирательная система неизбежна. Управление политическими конфликтами, как правило, интегрирует доиндустриальный тип политической культуры.</p>
-          </li>
-          <li class="slider-reviews__slider-item visually-hidden">
-            <p class="slider-reviews__slider-user">Сергей Сергеев</p>
-            <p class="slider-reviews__slider-user-info">30 лет, водитель троллейбуса</p>
-            <p class="slider-reviews__slider-text">Сознание, согласно традиционным представлениям, иллюстрирует материалистический автоматизм. Ригидность просветляет конфликтный закон.</p>
-          </li>
-        </ul>
-        <button class="slider-reviews__prev" class="button">Предыдущий слайд</button>
-        <button class="slider-reviews__next" class="button">Следующий слайд</button>
-        <ul class="slider-controls slider-reviews__slider-controls  slider-controls--reviews">
-          <li class="slider-controls__item">
-            <button class="slider-controls__button slider-controls__button--active"></button>
-          </li>
-          <li class="slider-controls__item">
-            <button class="slider-controls__button"></button>
-          </li>
-          <li class="slider-controls__item">
-            <button class="slider-controls__button"></button>
-          </li>
-        </ul>
-      </section>
-      <section class="rates main-content__rates">
-        <div class="rates__wrap">
-          <table class="rates__table">
-            <tr class="rates__row">
-              <th class="rates__empty-cell rates__cell"></th>
-              <th class="rates__top-header-cell rates__top-header-cell--first rates__cell">
-                <span class="rates__rate-name">База</span>
-                <span class="rates__rate-cost">1,99 USD</span>
-              </th>
-              <th class="rates__top-header-cell rates__top-header-cell--hit rates__cell">
-                <span class="rates__rate-name">Стандарт</span>
-                <span class="rates__rate-cost">3,99 USD</span>
-              </th>
-              <th class="rates__top-header-cell rates__top-header-cell--last rates__cell">
-                <span class="rates__rate-name">Анлим</span>
-                <span class="rates__rate-cost">9,99 USD</span>
-              </th>
-            </tr>
-            <tr class="rates__row">
-              <th class="rates__left-header-cell rates__cell">Розовый фильтр</th>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Розовый фильтр</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Розовый фильтр</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Розовый фильтр</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-            </tr>
-            <tr class="rates__row">
-              <th class="rates__left-header-cell rates__cell">Смайлики</th>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Смайлики</span>
-                  <span class="rates__content-mark rates__content-mark--no"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Смайлики</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Смайлики</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-            </tr>
-            <tr class="rates__row">
-              <th class="rates__left-header-cell rates__cell">Комментарии</th>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Комментарии</span>
-                  <span class="rates__content-mark rates__content-mark--no"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Комментарии</span>
-                  <span class="rates__content-mark rates__content-mark--no"></span>
-                </div>
-              </td>
-              <td class="rates__content-cell rates__cell">
-                <div class="rates__cell-inner">
-                  <span class="rates__content-text">Комментарии</span>
-                  <span class="rates__content-mark rates__content-mark--yes"></span>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <ul class="slider-controls rates__slider-controls slider-controls--rates">
-          <li class="slider-controls__item">
-            <button class="slider-controls__button"></button>
-          </li>
-          <li class="slider-controls__item">
-            <button class="slider-controls__button slider-controls__button--active"></button>
-          </li>
-          <li class="slider-controls__item">
-            <button class="slider-controls__button"></button>
-          </li>
-        </ul>
-      </section>
-      <section class="contacts main-content__contacts">
-        <h2 class="visually-hidden">Контакты</h2>
-        <div class="contacts__wrap">
-          <p class="contacts__title">Остались вопросы?<br> Свяжитесь с нами!</p>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <span class="contacts__text">Звоните:</span>
-              <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
-            </li>
-            <li class="contacts__item contacts__item--second">
-              <span class="contacts__text">Пишите:</span>
-              <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-            </li>
-            <li class="contacts__item">
-              <span class="contacts__text">Приезжайте в гости:</span>
-              <span class="contacts__link">ул. Большая<br> Конюшенная, 19/8</span>
-            </li>
-          </ul>
-        </div>
-        <div class="contacts__map"></div>
-      </section>
     </main>
     <footer class="main-footer">
-      <a class="logo logo--medium main-footer__logo">
-        <div class="logo__inner logo__inner--footer"></div>
-      </a>
-      <ul class="socials main-footer__socials">
-        <li class="socials__item">
-          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт twitter"></a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт facebook"></a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="blank.html" aria-label="Ссылка на аккаунт youtube"></a>
-        </li>
-      </ul>
-      <div class="copyright main-footer__copyright">
-        <span class="copyright__text">Разработано</span>
-        <a class="copyright__link" href="https://htmlacademy.ru"></a>
-      </div>
     </footer>
     <script src="js/script.js"></script>
   </body>
