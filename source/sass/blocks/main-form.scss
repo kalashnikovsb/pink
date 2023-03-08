@@ -1,11 +1,3 @@
-.main-form {
-
-}
-
-.main-form__content {
-
-}
-
 .main-form__content--colored {
   background: lightgreen;
 }
@@ -26,10 +18,6 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
-}
-
-.main-form__fieldset--achievements {
-
 }
 
 .main-form__fieldset--contacts {
@@ -59,10 +47,6 @@
   margin-bottom: 42px;
 }
 
-.main-form__legend--achievements {
-
-}
-
 .main-form__legend--contacts {
   display: none;
 }
@@ -74,10 +58,6 @@
 .main-form__legend--review {
   top: 38px;
   margin-bottom: 17px;
-}
-
-.main-form__textarea {
-
 }
 
 .main-form__button {
@@ -130,8 +110,6 @@
     padding-right: 20px;
   }
 
-
-
   .main-form__content {
     order: 1;
     margin-bottom: 53px;
@@ -159,8 +137,6 @@
     margin-bottom: 52px;
   }
 
-
-
   .main-form__content--achievements {
     order: 4;
   }
@@ -172,8 +148,6 @@
     padding-left: 58px;
     padding-right: 58px;
   }
-
-
 
   .main-form__content--contacts {
     order: 3;
@@ -196,8 +170,6 @@
     margin-bottom: 24px;
   }
 
-
-
   .main-form__content--applications {
     order: 2;
   }
@@ -214,8 +186,6 @@
     margin-bottom: 0;
   }
 
-
-
   .main-form__content--review {
     order: 5;
     margin-bottom: 66px;
@@ -228,8 +198,6 @@
     padding-left: 58px;
     padding-right: 58px;
   }
-
-
 
   .main-form__content--additional {
     order: 6;
@@ -245,10 +213,6 @@
 
   .main-form__button {
     margin-bottom: 0;
-  }
-
-  .main-form__mark {
-
   }
 }
 
@@ -301,12 +265,6 @@
     margin-bottom: 53px;
   }
 
-
-
-
-
-
-
   .main-form__content--achievements {
     grid-column: 1 / -1;
     padding-top: 13px;
@@ -327,10 +285,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 0px 55px;
-  }
-
-  .main-form__legend--achievements {
-
   }
 
   .main-form__check-block--selfie {
@@ -356,14 +310,6 @@
   .main-form__check-block--hotel {
     order: 6;
   }
-
-
-
-
-
-
-
-
 
   .main-form__content--contacts {
     grid-column: 1 / -1;
@@ -391,12 +337,6 @@
 
   }
 
-
-
-
-
-
-
   .main-form__content--applications {
     padding-top: 13px;
     margin-bottom: 52px;
@@ -423,12 +363,6 @@
     margin-bottom: 35px;
   }
 
-
-
-
-
-
-
   .main-form__content--review {
     grid-column: 1 / -1;
     padding-top: 13px;
@@ -447,12 +381,6 @@
     padding-left: 58px;
     padding-right: 58px;
   }
-
-
-
-
-
-
 
   .main-form__content--additional {
     grid-column: 1 / -1;

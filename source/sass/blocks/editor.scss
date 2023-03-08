@@ -1,9 +1,8 @@
 .editor {
-  background: tomato;
+  background: $gray-color1;
 }
 
 .editor__inner {
-  background: lightblue;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -29,11 +28,6 @@
   align-items: center;
   justify-content: center;
   gap: 35px;
-  background: gray;
-}
-
-.editor__setting-item {
-  background: black;
 }
 
 .editor__setting-button {
@@ -112,27 +106,7 @@
   margin-bottom: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: $tablet-width) {
-  .editor {
-
-  }
-
   .editor__inner {
     padding-top: 56px;
     height: 400px;
@@ -169,7 +143,6 @@
     width: 100%;
     box-sizing: border-box;
     height: auto;
-    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,10 +155,6 @@
   .editor__setting-button {
     width: 22px;
     height: 22px;
-  }
-
-  .editor__setting-item--first {
-
   }
 
   .editor__setting-button--first {
@@ -222,7 +191,7 @@
     display: block;
     width: 202px;
     height: 2px;
-    background: black;
+    background: $blue-color1;
     position: relative;
   }
 
@@ -265,10 +234,6 @@
   }
 }
 
-
-
-
-
 @media (min-width: $desktop-width) {
   .editor {
     padding-left: 130px;
@@ -287,11 +252,6 @@
   .editor__image {
     margin-top: 2px;
   }
-
-
-
-
-
 
   .editor__settings-list {
     margin-left: 0;
@@ -357,9 +317,6 @@
   .editor__setting-toggle--third {
     left: 136px;
   }
-
-
-
 
   .editor__button--submit {
     grid-column: 3 / 4;

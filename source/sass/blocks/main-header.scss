@@ -2,10 +2,6 @@
   background-color: $blue-color1;
 }
 
-.main-header__top {
-
-}
-
 .main-header__inner {
   display: flex;
   flex-wrap: wrap;
@@ -15,16 +11,8 @@
   padding-right: 20px;
 }
 
-.main-header__logo {
-
-}
-
 .main-header__nav-button {
   margin-left: auto;
-}
-
-.main-header__main-nav {
-
 }
 
 @media (min-width: $tablet-width) {
