@@ -10,6 +10,16 @@
   background: black;
 }
 
+.logo--medium {
+  width: 145px;
+  height: 40px;
+}
+
+.logo__image--medium {
+  width: 145px;
+  height: 40px;
+}
+
 @media (min-width: $tablet-width) {
   .logo {
     width: 145px;

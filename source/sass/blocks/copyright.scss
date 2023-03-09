@@ -1,0 +1,32 @@
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 18px;
+  color: $blue-color1;
+  margin-top: 2px;
+  margin-right: 15px;
+}
+
+.copyright__link {
+  width: 27px;
+  height: 34px;
+  background: magenta;
+}
+
+@media (min-width: $tablet-width) {
+  .copyright__text {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .copyright__text {
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-right: 13px;
+  }
+}
