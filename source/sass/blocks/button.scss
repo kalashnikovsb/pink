@@ -21,3 +21,21 @@
   border: 3px solid $white-color;
   border-radius: 29px;
 }
+
+.button--rounded:hover {
+  color: $red-color1;
+  background: $white-color;
+}
+
+.button--rounded:active {
+  color: $red-color2;
+}
+
+@media (min-width: $desktop-width) {
+  .button--rounded {
+    font-size: 21px;
+    line-height: 21px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+  }
+}
