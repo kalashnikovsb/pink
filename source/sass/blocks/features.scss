@@ -1,0 +1,148 @@
+.features {
+  background: lightblue;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.features__top {
+  background: yellow;
+}
+
+.features__title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $blue-color1;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.features__title:last-of-type {
+  margin-bottom: 20px;
+}
+
+.features__list {
+  list-style: none;
+  margin: 0;
+  padding-top: 92px;
+  padding-bottom: 287px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: red;
+}
+
+.features__item {
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.features__item-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.features__item-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-color1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .features {
+    padding-top: 47px;
+    padding-bottom: 0;
+  }
+
+  .features__title {
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 0;
+  }
+
+  .features__title:last-of-type {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .features__list {
+    padding-top: 85px;
+    padding-bottom: 9px;
+    padding-left: 50%;
+  }
+
+  .features__item {
+    text-align: left;
+    margin-bottom: 34px;
+  }
+
+  .features__item:nth-of-type(2n) {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features {
+    padding-top: 62px;
+    padding-bottom: 0;
+  }
+
+  .features__top {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .features__title {
+    font-size: 50px;
+    line-height: 68px;
+    margin-bottom: 0;
+  }
+
+  .features__title:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .features__list {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .features__item {
+    width: 31.91%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 414px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .features__item:nth-of-type(2n) {
+    margin-bottom: 34px;
+  }
+
+  .features__item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .features__item-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 22px;
+  }
+
+  .features__item-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
