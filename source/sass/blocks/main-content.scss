@@ -1,3 +1,9 @@
-.main-content {
+.main-content__special {
+  display: none;
+}
 
+@media (min-width: $tablet-width) {
+  .main-content__special {
+    display: block;
+  }
 }
