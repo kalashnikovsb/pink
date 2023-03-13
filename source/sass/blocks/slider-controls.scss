@@ -1,0 +1,28 @@
+.slider-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: center;
+  gap: 13px;
+}
+
+.slider-controls__button {
+  display: block;
+  box-sizing: content-box;
+  padding: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 3px solid $white-color;
+  background: $blue-color1;
+  opacity: 0.3;
+}
+
+.slider-controls__button--active {
+  opacity: 1;
+  background: $white-color;
+  border: 3px solid $blue-color1;
+}

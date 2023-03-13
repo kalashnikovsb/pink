@@ -1,0 +1,127 @@
+.slider-reviews {
+  padding-top: 41px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slider-reviews__button {
+  display: none;
+}
+
+.slider-reviews__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 31px;
+}
+
+.slider-reviews__item {
+  text-align: center;
+}
+
+.slider-reviews__name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
+.slider-reviews__job {
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-color1;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: none;
+}
+
+.slider-reviews__text {
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-color1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .slider-reviews {
+    padding-top: 72px;
+  }
+
+  .slider-reviews__list {
+    margin-bottom: 35px;
+  }
+
+  .slider-reviews__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider-reviews__name {
+    order: 2;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .slider-reviews__job {
+    order: 3;
+    display: block;
+  }
+
+  .slider-reviews__text {
+    order: 1;
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider-reviews {
+    padding-top: 184px;
+    padding-left: 130px;
+    padding-right: 130px;
+    position: relative;
+  }
+
+  .slider-reviews__button {
+    display: block;
+    position: absolute;
+    border: 0;
+    top: 213px;
+    width: 22px;
+    height: 41px;
+    background: black;
+  }
+
+  .slider-reviews__button--prev {
+    left: 130px;
+  }
+
+  .slider-reviews__button--next {
+    right: 130px;
+  }
+
+  .slider-reviews__list {
+    margin-bottom: 0;
+  }
+
+  .slider-reviews__item {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .slider-reviews__name {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+
+  .slider-reviews__job {
+    font-size: 18px;
+  }
+
+  .slider-reviews__slider-controls {
+    display: none;
+  }
+}
