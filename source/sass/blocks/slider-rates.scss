@@ -1,223 +1,35 @@
 .slider-rates {
-  padding-top: 138px;
-  padding-bottom: 46px;
-  background: $gray-color3;
+
 }
 
-.slider-rates__table-wrap {
-  height: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  margin-bottom: 21px;
+.slider-rates__wrap {
+
 }
 
 .slider-rates__table {
-  background: transparent;
-  position: absolute;
   border-collapse: collapse;
-  padding: 0;
 }
 
-.slider-rates__empty-cell {
-  display: none;
-}
+.slider-rates__row {
 
-.slider-rates__header-cell {
-  background: $blue-color1;
-  border: 2px solid $gray-color4;
-  color: $white-color;
-  border-top: 0;
-  border-bottom: 0;
-}
-
-.slider-rates__header-cell-inner {
-  display: flex;
-  flex-direction: column;
-  text-transform: uppercase;
-  padding-top: 11px;
-  padding-bottom: 31px;
-  box-sizing: border-box;
-  width: 274px;
-}
-
-.slider-rates__header-cell-name {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.slider-rates__header-cell-price {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.slider-rates__side-cell {
-  padding: 0;
-  display: none;
-  background: $white-color;
 }
 
 .slider-rates__cell {
   border: 2px solid $gray-color4;
-  padding: 0;
-  background: $white-color;
 }
 
-.slider-rates__cell--first {
-  border-top-color: $white-color;
+.slider-rates__cell--empty {
+
 }
 
-.slider-rates__cell-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 13px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 15px;
-  box-sizing: border-box;
-  width: 274px;
+.slider-rates__cell--side {
+
 }
 
-.slider-rates__cell-text {
-  font-size: 14px;
-  line-height: 30px;
-  color: $blue-color1;
-  text-transform: uppercase;
+.slider-rates__cell--regular {
+
 }
 
-.slider-rates__cell-icon {
-  background: black;
-}
+.slider-rates__cell--header {
 
-.slider-rates__cell-icon--yes {
-  width: 31px;
-  height: 21px;
-}
-
-.slider-rates__cell-icon--no {
-  width: 27px;
-  height: 27px;
-}
-
-@media (min-width: $tablet-width) {
-  .slider-rates {
-    padding-top: 112px;
-    padding-bottom: 58px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .slider-rates__table-wrap {
-    height: 230px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 0;
-  }
-
-  .slider-rates__table {
-    width: 100%;
-  }
-
-  .slider-rates__header-row {
-    background: $gray-color3;
-  }
-
-  .slider-rates__empty-cell {
-    display: table-cell;
-  }
-
-  .slider-rates__header-cell {
-    width: 25%;
-    border: none;
-    position: relative;
-  }
-
-  .slider-rates__header-cell--first {
-    border-radius: 3px 0 0 0;
-  }
-
-  .slider-rates__header-cell--first::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    top: 0;
-    right: -1px;
-    z-index: 1;
-    background: $gray-color3;
-  }
-
-  .slider-rates__header-cell--last {
-    border-radius: 0 3px 0 0;
-  }
-
-  .slider-rates__header-cell--last::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    top: 0;
-    left: -1px;
-    background: $gray-color4;
-  }
-
-  .slider-rates__header-cell-inner {
-    padding-top: 11px;
-    padding-bottom: 12px;
-    width: auto;
-  }
-
-  .slider-rates__side-cell {
-    display: table-cell;
-    font-size: 14px;
-    line-height: 30px;
-    color: $blue-color1;
-    border: 2px solid $gray-color4;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 0;
-  }
-
-  .slider-rates__cell--first {
-    border-top: none;
-  }
-
-  .slider-rates__cell-inner {
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: auto;
-  }
-
-  .slider-rates__cell-inner--first {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-
-  .slider-rates__cell-inner--second {
-    padding-top: 9px;
-    padding-bottom: 9px;
-  }
-
-  .slider-rates__cell-inner--third {
-    padding-top: 9px;
-    padding-bottom: 9px;
-  }
-
-  .slider-rates__cell-text {
-    display: none;
-  }
-
-  .slider-rates__slider-controls {
-    display: none;
-  }
 }
