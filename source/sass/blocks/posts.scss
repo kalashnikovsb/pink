@@ -1,0 +1,25 @@
+.posts__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.posts__item {
+  margin-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .posts__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .posts__item {
+    width: 48.38%;
+    margin-bottom: 0;
+  }
+}

@@ -2,8 +2,16 @@
   display: none;
 }
 
+.main-content__wide-post {
+  margin-bottom: 20px;
+}
+
 @media (min-width: $tablet-width) {
   .main-content__special {
     display: block;
+  }
+
+  .main-content__wide-post {
+    margin-bottom: 50px;
   }
 }

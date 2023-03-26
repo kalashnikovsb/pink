@@ -1,0 +1,208 @@
+.post__full-image-link {
+  display: block;
+  height: 180px;
+  width: 100%;
+  background: black;
+}
+
+.post__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+.post__inner {
+  display: flex;
+  flex-direction: column;
+  background: $gray-color3;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.post__meta {
+  line-height: 24px;
+  color: $blue-color1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post__username {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.post__time {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: $blue-color1;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.post__text--second {
+  margin-bottom: 13px;
+}
+
+.post__text--third {
+  margin-bottom: 12px;
+}
+
+.post__text--fourth {
+  margin-bottom: 13px;
+}
+
+.post__text--fifth {
+  margin-bottom: 13px;
+}
+
+.post__text--sixth {
+  margin-bottom: 13px;
+}
+
+.post__like-wrap {
+  display: flex;
+  background: yellow;
+}
+
+.post__like-button {
+  width: 13px;
+  height: 12px;
+  font-size: 0;
+  background: black;
+  margin-top: 4px;
+  margin-right: 18px;
+}
+
+.post__like-number {
+  font-size: 12px;
+  line-height: 24px;
+  color: $red-color1;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post__full-image-link--wide {
+  height: 137px;
+}
+
+.post__inner--wide {
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.post__text--wide {
+  margin-bottom: 12px;
+}
+
+@media (min-width: $tablet-width) {
+  .post__full-image-link {
+    height: 300px;
+  }
+
+  .post__inner {
+    padding-top: 22px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 110px;
+  }
+
+  .post__meta {
+    margin-bottom: -1px;
+  }
+
+  .post__text {
+    margin-bottom: 13px;
+  }
+
+  .post__text--second {
+    margin-bottom: inherit;
+  }
+
+  .post__text--third {
+    margin-bottom: inherit;
+  }
+
+  .post__text--fourth {
+    margin-bottom: inherit;
+  }
+
+  .post__text--fifth {
+    margin-bottom: inherit;
+  }
+
+  .post__text--sixth {
+    margin-bottom: inherit;
+  }
+
+  .post__like-wrap {
+    margin-top: auto;
+  }
+
+  .post__like-button {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 0;
+    order: 2;
+  }
+
+  .post__like-number {
+    order: 1;
+  }
+
+  .post__full-image-link--wide {
+    height: 509px;
+  }
+
+  .post__inner--wide {
+    flex-direction: row;
+    flex-wrap: wrap;
+    // align-items: stretch;
+    align-content: flex-start;
+    min-height: 76px;
+    gap: 0px 0;
+  }
+
+  .post__meta--wide {
+    order: 1;
+    margin-bottom: 0;
+    flex-grow: 5;
+    background: tomato;
+  }
+
+  .post__text--wide {
+    order: 3;
+    margin-bottom: 0;
+    background: lightgreen;
+  }
+
+  .post__like-wrap--wide {
+    order: 2;
+    flex-grow: 1;
+    justify-content: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .post__like-button--wide {
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+
+  .post__like-number--wide {
+    margin-top: 2px;
+  }
+}
