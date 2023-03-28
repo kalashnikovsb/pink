@@ -9,7 +9,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: red;
+  background: black;
 }
 
 .post__inner {
@@ -72,7 +72,6 @@
 
 .post__like-wrap {
   display: flex;
-  background: yellow;
 }
 
 .post__like-button {
@@ -173,20 +172,18 @@
     // align-items: stretch;
     align-content: flex-start;
     min-height: 76px;
-    gap: 0px 0;
+    gap: 0 0;
   }
 
   .post__meta--wide {
     order: 1;
     margin-bottom: 0;
     flex-grow: 5;
-    background: tomato;
   }
 
   .post__text--wide {
     order: 3;
     margin-bottom: 0;
-    background: lightgreen;
   }
 
   .post__like-wrap--wide {
@@ -204,5 +201,40 @@
 
   .post__like-number--wide {
     margin-top: 2px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .post__full-image-link {
+    height: 400px;
+  }
+
+  .post__inner {
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 27px;
+    padding-right: 31px;
+  }
+
+  .post__meta {
+    margin-bottom: 0;
+  }
+
+  .post__text {
+    margin-bottom: 0;
+  }
+
+  .post__full-image-link--wide {
+    height: 506px;
+  }
+
+  .post__inner--wide {
+    min-height: 51px;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  .post__like-button--wide {
+    margin-top: 7px;
   }
 }

@@ -5,6 +5,11 @@
   padding-right: 20px;
 }
 
+.content-text--bottom {
+  padding-top: 20px;
+  padding-bottom: 42px;
+}
+
 .content-text__text {
   font-size: 14px;
   line-height: 30px;
@@ -22,6 +27,11 @@
     padding-right: 50px;
   }
 
+  .content-text--bottom {
+    padding-top: 64px;
+    padding-bottom: 70px;
+  }
+
   .content-text__text {
     font-size: 18px;
   }
@@ -33,5 +43,11 @@
     padding-bottom: 89px;
     padding-left: 180px;
     padding-right: 180px;
+  }
+  .content-text--bottom {
+    padding-top: 58px;
+    padding-bottom: 67px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
 }
