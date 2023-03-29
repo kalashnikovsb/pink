@@ -202,22 +202,22 @@
 
         <div class="editor__inner">
           <ul class="editor__settings-list">
-            <li class="editor__setting-item">
+            <li class="editor__setting-item editor__setting-item--crop">
               <button class="editor__setting-button editor__setting-button--crop"></button>
               <div class="editor__line editor__line--special">
-                <div class="editor__toggler"></div>
+                <div class="editor__toggler editor__toggler--crop"></div>
               </div>
             </li>
-            <li class="editor__setting-item">
+            <li class="editor__setting-item editor__setting-item--fill">
               <button class="editor__setting-button editor__setting-button--fill"></button>
               <div class="editor__line editor__line--special">
-                <div class="editor__toggler"></div>
+                <div class="editor__toggler editor__toggler--fill"></div>
               </div>
             </li>
-            <li class="editor__setting-item">
+            <li class="editor__setting-item editor__setting-item--contrast">
               <button class="editor__setting-button editor__setting-button--contrast"></button>
               <div class="editor__line editor__line--special">
-                <div class="editor__toggler"></div>
+                <div class="editor__toggler editor__toggler--contrast"></div>
               </div>
             </li>
           </ul>
@@ -235,7 +235,24 @@
     </main>
 
     <footer class="main-footer">
-
+      <a class="logo logo--medium main-footer__logo" href="index.html">
+        <img class="logo__image logo__image--medium" src="#" alt="Логотип Pink">
+      </a>
+      <ul class="socials main-footer__socials">
+        <li class="socials__item">
+          <a class="socials__link socials__link--twitter" href="blank.html" aria-label="Мы в twitter"></a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link socials__link--facebook" href="blank.html" aria-label="Мы в facebook"></a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link socials__link--youtube" href="blank.html" aria-label="Мы в youtube"></a>
+        </li>
+      </ul>
+      <div class="copyright main-footer__copyright">
+        <span class="copyright__text">Разработано</span>
+        <a class="copyright__link" href="https://htmlacademy.ru" aria-label="Ссылка на сайт htmlacademy"></a>
+      </div>
     </footer>
     <script src="js/script.js"></script>
   </body>

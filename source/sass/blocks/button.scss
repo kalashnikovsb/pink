@@ -35,16 +35,34 @@
 .button--editor-submit {
   color: $red-color1;
   border-color: $red-color1;
+  background: transparent;
+}
+
+.button--editor-submit:hover {
+  color: $white-color;
+  background: $red-color1;
+}
+
+.button--editor-submit:active {
+  color: $gray-color6;
+  background: $red-color1;
 }
 
 .button--editor-cancel {
-  color: $blue-color1;
-  border-color: $blue-color1;
-  opacity: 0.1;
+  color: $gray-color1;
+  border-color: $gray-color1;
 }
 
-.button--editor--cancel {
+.button--editor-cancel:hover {
+  color: $gray-color5;
+  border-color: $gray-color5;
+  background: transparent;
+}
 
+.button--editor-cancel:active {
+  color: $gray-color6;
+  background: $gray-color5;
+  border-color: $gray-color5;
 }
 
 @media (min-width: $desktop-width) {
@@ -53,5 +71,13 @@
     line-height: 21px;
     padding-top: 15px;
     padding-bottom: 14px;
+  }
+
+  .button--editor-submit {
+    font-size: 18px;
+  }
+
+  .button--editor-cancel {
+    font-size: 18px;
   }
 }
