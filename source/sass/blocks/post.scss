@@ -178,7 +178,7 @@
   .post__meta--wide {
     order: 1;
     margin-bottom: 0;
-    flex-grow: 5;
+    width: 70%;
   }
 
   .post__text--wide {
@@ -188,7 +188,7 @@
 
   .post__like-wrap--wide {
     order: 2;
-    flex-grow: 1;
+    width: 30%;
     justify-content: right;
     margin-top: 0;
     margin-bottom: 0;
