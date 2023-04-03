@@ -44,7 +44,7 @@
       </div>
 
       <form class="main-form main-content__main-form" action="https://echo.htmlacademy.ru" method="post">
-        <div class="main-form__inner-wrap">
+        <fieldset class="main-form__fieldset main-form__fieldset--fullname">
           <div class="input-block">
             <label class="input-block__label" for="customer-surname">Фамилия:</label>
             <input class="input-block__input" type="text" name="customer-surname" id="customer-surname" placeholder="Укажите фамилию *">
@@ -57,38 +57,38 @@
             <label class="input-block__label" for="customer-patronymic">Отчество:</label>
             <input class="input-block__input" type="text" name="customer-patronymic" id="customer-patronymic" placeholder="Ну и отчество тоже">
           </div>
-        </div>
+        </fieldset>
 
-        <fieldset class="main-form__fieldset">
-          <legend class="main-form__legend">Ваши безбашенные достижения в путешествии</legend>
-          <div class="switch-block">
-            <label class="switch-block__label" for="selfie-with-a-shark">Сделал селфи с акулой</label>
-            <input class="switch-block__input" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" value="true">
+        <fieldset class="main-form__fieldset main-form__fieldset--achievements">
+          <legend class="main-form__legend main-form__legend--achievements">Ваши безбашенные достижения в путешествии</legend>
+          <div class="check-block">
+            <label class="check-block__label" for="selfie-with-a-shark">Сделал селфи с акулой</label>
+            <input class="check-block__input" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" value="true">
           </div>
-          <div class="switch-block">
-            <label class="switch-block__label" for="burn-on-the-beach">Обгорел на пляже</label>
-            <input class="switch-block__input" type="checkbox" name="burn-on-the-beach" id="burn-on-the-beach" value="true">
+          <div class="check-block">
+            <label class="check-block__label" for="burn-on-the-beach">Обгорел на пляже</label>
+            <input class="check-block__input" type="checkbox" name="burn-on-the-beach" id="burn-on-the-beach" value="true">
           </div>
-          <div class="switch-block">
-            <label class="switch-block__label" for="see-chuck-norris">Видел Чака Норриса</label>
-            <input class="switch-block__input" type="checkbox" name="see-chuck-norris" id="see-chuck-norris" value="true">
+          <div class="check-block">
+            <label class="check-block__label" for="see-chuck-norris">Видел Чака Норриса</label>
+            <input class="check-block__input" type="checkbox" name="see-chuck-norris" id="see-chuck-norris" value="true">
           </div>
-          <div class="switch-block">
-            <label class="switch-block__label" for="buy-souvenirs">Накупил сувениров</label>
-            <input class="switch-block__input" type="checkbox" name="buy-souvenirs" id="buy-souvenirs" value="true">
+          <div class="check-block">
+            <label class="check-block__label" for="buy-souvenirs">Накупил сувениров</label>
+            <input class="check-block__input" type="checkbox" name="buy-souvenirs" id="buy-souvenirs" value="true">
           </div>
-          <div class="switch-block">
-            <label class="switch-block__label" for="hold-the-tower">Удержал башню</label>
-            <input class="switch-block__input" type="checkbox" name="hold-the-tower" id="hold-the-tower" value="true">
+          <div class="check-block">
+            <label class="check-block__label" for="hold-the-tower">Удержал башню</label>
+            <input class="check-block__input" type="checkbox" name="hold-the-tower" id="hold-the-tower" value="true">
           </div>
-          <div class="switch-block">
-            <label class="switch-block__label" for="smash-the-hotel">Разгромил отель</label>
-            <input class="switch-block__input" type="checkbox" name="smash-the-hotel" id="smash-the-hotel" value="true">
+          <div class="check-block">
+            <label class="check-block__label" for="smash-the-hotel">Разгромил отель</label>
+            <input class="check-block__input" type="checkbox" name="smash-the-hotel" id="smash-the-hotel" value="true">
           </div>
         </fieldset>
 
-        <fieldset class="main-form__fieldset">
-          <legend class="main-form__legend">Контактная информация</legend>
+        <fieldset class="main-form__fieldset main-form__fieldset--contacts">
+          <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
           <div class="input-block">
             <label class="input-block__label" for="customer-phone">Номер телефона</label>
             <input class="input-block__input" type="text" name="customer-phone" id="customer-phone" placeholder="Номер, пожалуйста">
@@ -98,6 +98,32 @@
             <input class="input-block__input" type="text" name="customer-address" id="customer-address" placeholder="Введите почту *">
           </div>
         </fieldset>
+
+        <fieldset class="main-form__fieldset main-form__fieldset--application">
+          <legend class="main-form__legend main-form__legend--application">С каким приложением путешествовали?</legend>
+          <div class="check-block">
+            <label class="check-block__label" for="ios-application">Pink для iOS</label>
+            <input class="check-block__input" type="radio" name="application" id="ios-application" value="ios">
+          </div>
+          <div class="check-block">
+            <label class="check-block__label" for="android-application">Pink на Android</label>
+            <input class="check-block__input" type="radio" name="application" id="android-application" value="android">
+          </div>
+          <div class="check-block">
+            <label class="check-block__label" for="windows-phone-application">Windows Phone</label>
+            <input class="check-block__input" type="radio" name="application" id="windows-phone-application" value="windows-phone">
+          </div>
+        </fieldset>
+
+        <fieldset class="main-form__fieldset main-form__fieldset--textarea">
+          <legend class="main-form__legend main-form__legend--textarea">Опишите свои эмоции</legend>
+          <textarea class="textarea main-form__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
+        </fieldset>
+
+        <div class="main-form__additional">
+          <button class="main-form__submit button" type="submit">Отправить форму</button>
+          <p class="main-form__required-mark">* - Обязательные поля</p>
+        </div>
       </form>
     </main>
 
