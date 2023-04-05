@@ -1,0 +1,124 @@
+.main-form {
+  background: yellow;
+}
+
+.main-form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: lightblue;
+}
+
+.main-form__fieldset--fullname {
+  padding-top: 0;
+  padding-bottom: 42px;
+}
+
+.main-form__fieldset--achievements {
+  padding-top: 38px;
+  padding-bottom: 42px;
+}
+
+.main-form__fieldset--contacts {
+  padding-top: 32px;
+  padding-bottom: 42px;
+}
+
+.main-form__fieldset--application {
+  padding-top: 34px;
+  padding-bottom: 40px;
+}
+
+.main-form__fieldset--textarea {
+  padding-top: 16px;
+}
+
+.main-form__fieldset-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-form__legend {
+  padding: 0;
+  background: lightgreen;
+  font-size: 14px;
+  line-height: 18px;
+  color: $red-color1;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main-form__legend--fullname {
+  display: none;
+}
+
+.main-form__legend--achievements {
+  padding-top: 39px;
+}
+
+.main-form__legend--contacts {
+  display: none;
+}
+
+.main-form__legend--application {
+  padding-top: 39px;
+}
+
+.main-form__legend--textarea {
+  padding-top: 38px;
+}
+
+.main-form__input-block {
+  margin-bottom: 17px;
+}
+
+.main-form__input-block:last-of-type {
+  margin-bottom: 0;
+}
+
+.main-form__check-block--checkbox {
+  margin-bottom: 43px;
+}
+
+.main-form__check-block--radio {
+  margin-bottom: 34px;
+}
+
+.main-form__check-block:last-of-type {
+  margin-bottom: 0;
+}
+
+.main-form__additional {
+  padding-top: 43px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.main-form__submit {
+  margin-bottom: 34px;
+}
+
+.main-form__required-mark {
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-color1;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-form__required-span {
+  color: $red-color1;
+}
+
+@media (min-width: $tablet-width) {
+  .main-form__input-block {
+    margin-bottom: 52px;
+  }
+}

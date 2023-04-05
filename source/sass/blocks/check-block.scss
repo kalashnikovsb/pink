@@ -1,0 +1,35 @@
+.check-block {
+  display: flex;
+  align-items: center;
+}
+
+.check-block__input {
+  display: none;
+}
+
+.check-block__visible-input {
+  border: 2px solid $gray-color4;
+}
+
+.check-block__visible-input--checkbox {
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.check-block__visible-input--radio {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 29px;
+}
+
+.check-block__label {
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color1;
+  margin-bottom: 1px;
+  flex-grow: 0;
+}

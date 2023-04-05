@@ -10,6 +10,11 @@
   padding-bottom: 42px;
 }
 
+.content-text--form {
+  padding-top: 44px;
+  padding-bottom: 35px;
+}
+
 .content-text__text {
   font-size: 14px;
   line-height: 30px;
@@ -17,6 +22,10 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.content-text__text-inner {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -32,8 +41,17 @@
     padding-bottom: 70px;
   }
 
+  .content-text--form {
+    padding-top: 91px;
+    padding-bottom: 72px;
+  }
+
   .content-text__text {
     font-size: 18px;
+  }
+
+  .content-text__text-inner {
+    display: inline;
   }
 }
 

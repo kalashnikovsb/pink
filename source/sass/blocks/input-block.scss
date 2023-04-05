@@ -1,0 +1,49 @@
+.input-block {
+  background: lightpink;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block__label {
+  font-size: 14px;
+  line-height: 30px;
+  color: $red-color1;
+  text-transform: uppercase;
+  padding-left: 23px;
+  margin-bottom: 5px;
+}
+
+.input-block__input {
+  // border: 2px solid $gray-color4;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input-block__input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color1;
+}
+
+
+@media (min-width: $tablet-width) {
+  .input-block {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .input-block__label {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 19px;
+  }
+
+  .input-block__input {
+    flex-grow: 1;
+  }
+}
