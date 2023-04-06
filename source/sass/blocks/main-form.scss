@@ -33,6 +33,16 @@
   padding-top: 16px;
 }
 
+.main-form__fieldset--additional {
+  display: flex;
+  flex-direction: column;
+  padding-top: 43px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
 .main-form__fieldset-inner {
   padding-left: 20px;
   padding-right: 20px;
@@ -92,14 +102,6 @@
   margin-bottom: 0;
 }
 
-.main-form__additional {
-  padding-top: 43px;
-  padding-bottom: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
 .main-form__submit {
   margin-bottom: 34px;
 }
@@ -118,7 +120,304 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main-form__fieldset {
+    border: 2px solid red;
+    border-radius: 3px;
+  }
+
+  .main-form__fieldset--fullname {
+    order: 1;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 58px;
+  }
+
+  .main-form__fieldset--application {
+    order: 2;
+    padding-top: 44px;
+    padding-bottom: 52px;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-bottom: 58px;
+  }
+
+  .main-form__fieldset--contacts {
+    order: 3;
+    padding-top: 36px;
+    padding-bottom: 27px;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-bottom: 58px;
+  }
+
+  .main-form__fieldset--achievements {
+    order: 4;
+    padding-top: 44px;
+    padding-bottom: 48px;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-bottom: 58px;
+  }
+
+  .main-form__fieldset--textarea {
+    order: 5;
+    padding-top: 37px;
+    padding-bottom: 46px;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+  .main-form__fieldset--additional {
+    order: 6;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding-top: 66px;
+    padding-bottom: 48px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__fieldset-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: content-box;
+    width: auto;
+  }
+
+  .main-form__legend--application {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .main-form__legend--contacts {
+    display: block;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  .main-form__legend--achievements {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .main-form__legend--textarea {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .main-form__submit {
+    margin-bottom: 0;
+    width: 48.38%;
+    min-width: 300px;
+  }
+
   .main-form__input-block {
     margin-bottom: 52px;
+  }
+
+  .main-form__input-block--contacts {
+    margin-bottom: 29px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 57px 70px;
+  }
+
+
+
+
+
+
+
+  .main-form__fieldset--fullname {
+    order: 1;
+    width: 46.27%;
+    flex-grow: 1;
+    border: none;
+    padding-top: 14px;
+    margin-bottom: 0;
+
+  }
+
+  .main-form__fieldset--application {
+    order: 2;
+    width: 46.27%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .main-form__fieldset--contacts {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .main-form__fieldset--achievements {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .main-form__fieldset--textarea {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__fieldset--additional {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+
+
+
+
+
+
+  .main-form__fieldset-inner {
+
+  }
+
+  .main-form__fieldset-inner--application {
+    padding-top: 44px;
+    padding-bottom: 20px;
+    padding-left: 72px;
+    padding-right: 20px;
+  }
+
+  .main-form__fieldset-inner--contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px 70px;
+    padding-top: 34px;
+    padding-bottom: 13px;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+  .main-form__fieldset-inner--achievements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
+
+
+
+
+
+
+
+  .main-form__legend {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend--application {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend--contacts {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend--achievements {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-form__legend--textarea {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+
+
+
+
+
+  .main-form__input-block {
+    margin-bottom: 53px;
+  }
+
+  .main-form__input-block--contacts {
+    min-width: 375px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+
+  .main-form__input-block:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .main-form__check-block--checkbox {
+    margin-bottom: 43px;
+  }
+
+  .main-form__check-block--checkbox:nth-of-type(1) {
+    order: 0;
+  }
+  .main-form__check-block--checkbox:nth-of-type(2) {
+    order: 3;
+  }
+  .main-form__check-block--checkbox:nth-of-type(3) {
+    order: 1;
+  }
+  .main-form__check-block--checkbox:nth-of-type(4) {
+    order: 4;
+  }
+  .main-form__check-block--checkbox:nth-of-type(5) {
+    order: 2;
+  }
+  .main-form__check-block--checkbox:nth-of-type(6) {
+    order: 5;
+  }
+
+  .main-form__check-block--radio {
+    margin-bottom: 35px;
   }
 }

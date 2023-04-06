@@ -33,3 +33,9 @@
   margin-bottom: 1px;
   flex-grow: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .check-block__visible-input--radio {
+    margin-right: 20px;
+  }
+}

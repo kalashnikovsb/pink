@@ -44,7 +44,7 @@
       </div>
 
       <div class="content-text main-content__content-text content-text--form">
-        <p class="content-text__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! <span class="content-text__text-inner">Пожалуйста, заполните форму ниже:</span></p>
+        <p class="content-text__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу&nbsp;бонусную&nbsp;карту! <span class="content-text__text-inner">Пожалуйста, заполните форму ниже:</span></p>
       </div>
 
       <form class="main-form main-content__main-form" action="https://echo.htmlacademy.ru" method="post">
@@ -68,7 +68,7 @@
 
         <fieldset class="main-form__fieldset main-form__fieldset--achievements">
           <legend class="main-form__legend main-form__legend--achievements">Ваши безбашенные достижения&nbsp;в&nbsp;путешествии</legend>
-          <div class="main-form__fieldset-inner">
+          <div class="main-form__fieldset-inner main-form__fieldset-inner--achievements">
             <div class="check-block main-form__check-block main-form__check-block--checkbox">
               <input class="check-block__input" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" value="true" checked>
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
@@ -104,21 +104,21 @@
 
         <fieldset class="main-form__fieldset main-form__fieldset--contacts">
           <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
-          <div class="main-form__fieldset-inner">
-            <div class="input-block main-form__input-block">
-              <label class="input-block__label" for="customer-phone">Номер телефона</label>
-              <input class="input-block__input" type="text" name="customer-phone" id="customer-phone" placeholder="Номер, пожалуйста">
+          <div class="main-form__fieldset-inner main-form__fieldset-inner--contacts">
+            <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
+              <label class="input-block__label input-block__label--contacts" for="customer-phone">Номер телефона</label>
+              <input class="input-block__input input-block__input--contacts" type="text" name="customer-phone" id="customer-phone" placeholder="Номер, пожалуйста">
             </div>
-            <div class="input-block main-form__input-block">
-              <label class="input-block__label" for="customer-address">Адрес почты</label>
-              <input class="input-block__input" type="text" name="customer-address" id="customer-address" placeholder="Введите почту *" required>
+            <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
+              <label class="input-block__label input-block__label--contacts" for="customer-address">Адрес почты</label>
+              <input class="input-block__input input-block__input--contacts" type="text" name="customer-address" id="customer-address" placeholder="Введите почту *" required>
             </div>
           </div>
         </fieldset>
 
         <fieldset class="main-form__fieldset main-form__fieldset--application">
           <legend class="main-form__legend main-form__legend--application">С каким приложением путешествовали?</legend>
-          <div class="main-form__fieldset-inner">
+          <div class="main-form__fieldset-inner main-form__fieldset-inner--application">
             <div class="check-block main-form__check-block main-form__check-block--radio">
               <input class="check-block__input" type="radio" name="application" id="ios-application" value="ios" required>
               <span class="check-block__visible-input check-block__visible-input--radio"></span>
@@ -144,10 +144,10 @@
           </div>
         </fieldset>
 
-        <div class="main-form__additional">
+        <fieldset class="main-form__fieldset main-form__fieldset--additional">
           <button class="main-form__submit button button--form-submit" type="submit">Отправить форму</button>
           <p class="main-form__required-mark"><span class="main-form__required-span">*</span> &mdash; Обязательные поля</p>
-        </div>
+        </fieldset>
       </form>
     </main>
 
