@@ -99,7 +99,7 @@
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
               <label class="check-block__label" for="smash-the-hotel">Разгромил отель</label>
             </div>
-          </div>
+            </div>
         </fieldset>
 
         <fieldset class="main-form__fieldset main-form__fieldset--contacts">
@@ -139,19 +139,19 @@
 
         <fieldset class="main-form__fieldset main-form__fieldset--textarea">
           <legend class="main-form__legend main-form__legend--textarea">Опишите свои эмоции</legend>
-          <div class="main-form__fieldset-inner">
+          <div class="main-form__fieldset-inner main-form__fieldset-inner--textarea">
             <textarea class="textarea main-form__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
           </div>
         </fieldset>
 
         <fieldset class="main-form__fieldset main-form__fieldset--additional">
           <button class="main-form__submit button button--form-submit" type="submit">Отправить форму</button>
-          <p class="main-form__required-mark"><span class="main-form__required-span">*</span> &mdash; Обязательные поля</p>
+          <p class="main-form__required-mark"><span class="main-form__required-span">*</span> &mdash; Обязательные <span class="main-form__required-extra">для заполнения</span> поля</p>
         </fieldset>
       </form>
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer main-footer--form">
       <a class="logo logo--medium main-footer__logo" href="index.html">
         <img class="logo__image logo__image--medium" src="#" alt="Логотип Pink">
       </a>
@@ -171,6 +171,17 @@
         <a class="copyright__link" href="https://htmlacademy.ru" aria-label="Ссылка на сайт htmlacademy"></a>
       </div>
     </footer>
+
+    <section class="popup">
+      <div class="popup__top">
+        <h2 class="popup__title">Что-то пошло не так!</h2>
+        <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      </div>
+      <div class="popup__bottom">
+        <button class="button popup__button button--popup">Ок</button>
+      </div>
+    </section>
+
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -72,6 +72,12 @@
   padding-bottom: 17px;
 }
 
+.button--popup {
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
 @media (min-width: $desktop-width) {
   .button--rounded {
     font-size: 21px;
