@@ -16,6 +16,20 @@
   padding-right: 10px;
 }
 
+.button:hover {
+  background: $green-color2;
+}
+
+.button:active {
+  color: $gray-color6;
+  background: $green-color2;
+}
+
+.button:disabled {
+  background: $gray-color4;
+  color: $white-color;
+}
+
 .button--rounded {
   line-height: 18px;
   background: transparent;
@@ -76,6 +90,7 @@
   border: none;
   padding-top: 16px;
   padding-bottom: 17px;
+  text-transform: uppercase;
 }
 
 @media (min-width: $desktop-width) {

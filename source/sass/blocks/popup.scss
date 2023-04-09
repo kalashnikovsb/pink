@@ -1,14 +1,29 @@
 .popup {
-  background: red;
-  position: absolute;
-  top: 1425px;
+  position: fixed;
+  width: 100%;
+  top: 20%;
   text-align: center;
+  border-radius: 1px;
+  background: $white-color;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.popup--error {
+  display: none;
+}
+
+.popup--success {
+  // display: none;
 }
 
 .popup__top {
   padding-top: 38px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.popup__top--success {
+  padding-bottom: 20px;
 }
 
 .popup__title {
@@ -34,13 +49,100 @@
   padding-right: 20px;
 }
 
+.popup__bottom--success {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 0 0 1px 1px;
+  background: $gray-color3;
+}
+
 .popup__button {
   width: 100%;
 }
 
 @media (min-width: $tablet-width) {
   .popup {
+    width: calc(100% - 200px);
     margin-left: 100px;
     margin-right: 100px;
+    border-radius: 5px;
+  }
+
+  .popup__top {
+    padding-top: 41px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .popup__top--success {
+    padding-bottom: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .popup__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
+  .popup__text {
+    font-size: 18px;
+  }
+
+  .popup__bottom {
+    padding-top: 19px;
+    padding-bottom: 52px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .popup__bottom--success {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .popup {
+    width: calc(100% - 420px);
+    margin-left: 210px;
+    margin-right: 210px;
+    border-radius: 5px;
+  }
+
+  .popup__top {
+    padding-top: 41px;
+    padding-bottom: 49px;
+    padding-left: 210px;
+    padding-right: 210px;
+  }
+
+  .popup__top--success {
+    padding-bottom: 25px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .popup__title {
+    margin-bottom: 22px;
+  }
+
+  .popup__bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background: $gray-color3;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .popup__bottom--success {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    border-radius: 0 0 5px 5px;
   }
 }
