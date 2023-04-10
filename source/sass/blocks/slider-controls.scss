@@ -20,8 +20,24 @@
   opacity: 0.3;
 }
 
+.slider-controls__button:hover {
+  opacity: 0.6;
+}
+
+.slider-controls__button:active {
+  opacity: 0.1;
+}
+
 .slider-controls__button--active {
   opacity: 1;
   background: $white-color;
   border: 3px solid $blue-color1;
+}
+
+.slider-controls__button--active:hover {
+  opacity: 1;
+}
+
+.slider-controls__button--active:active {
+  opacity: 1;
 }

@@ -51,6 +51,17 @@
   text-decoration: none;
 }
 
+.contacts__link:hover {
+  color: $blue-color1;
+  text-decoration: underline;
+}
+
+.contacts__link:active {
+  color: $blue-color1;
+  text-decoration: none;
+  opacity: 0.3;
+}
+
 .contacts__map {
   height: 200px;
   background: black;

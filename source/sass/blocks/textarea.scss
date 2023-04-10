@@ -12,8 +12,20 @@
   padding-bottom: 13px;
   padding-left: 20px;
   padding-right: 20px;
+  outline: none;
 }
 
+.textarea:hover {
+  border: 2px solid $blue-color1;
+}
+
+.textarea:active {
+  border: 2px solid $red-color1;
+}
+
+.textarea:focus {
+  border: 2px solid $red-color1;
+}
 
 @media (min-width: $tablet-width) {
   .textarea {

@@ -15,10 +15,15 @@
 .input-block__input {
   border: 2px solid $gray-color4;
   border-radius: 3px;
-  padding-top: 24px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color1;
 }
 
 .input-block__input::placeholder {
@@ -28,6 +33,17 @@
   color: $blue-color1;
 }
 
+.input-block__input:hover {
+  border: 2px solid $blue-color1;
+}
+
+.input-block__input:active {
+  border: 2px solid $red-color1;
+}
+
+.input-block__input:focus {
+  border: 2px solid $red-color1;
+}
 
 @media (min-width: $tablet-width) {
   .input-block {
