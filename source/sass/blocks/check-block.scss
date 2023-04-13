@@ -3,12 +3,26 @@
   align-items: center;
 }
 
+.check-block__text {
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color1;
+  margin-bottom: 1px;
+  flex-grow: 0;
+}
+
 .check-block__input {
-  display: none;
+  appearance: none;
+  position: absolute;
 }
 
 .check-block__visible-input {
   border: 2px solid $gray-color4;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white-color;
 }
 
 .check-block__visible-input--checkbox {
@@ -26,12 +40,34 @@
   margin-right: 29px;
 }
 
-.check-block__label {
-  font-size: 18px;
-  line-height: 30px;
-  color: $blue-color1;
-  margin-bottom: 1px;
-  flex-grow: 0;
+.check-block__visible-input:hover {
+  border: 2px solid $blue-color1;
+}
+
+.check-block__visible-input:active {
+  border: 2px solid $red-color1;
+}
+
+.check-block__input:focus + .check-block__visible-input {
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.2);
+}
+
+.check-block__input:checked + .check-block__visible-input--radio::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: $red-color1;
+  border-radius: 50%;
+}
+
+.check-block__input:checked + .check-block__visible-input--checkbox::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 17px;
+  background: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='16' fill='none'%3E%3Cpath fill='%23D22856' d='M21.7.284a1.024 1.024 0 0 0-1.42 0L6.704 13.603 1.735 8.729a1.015 1.015 0 0 0-.72-.294 1.031 1.031 0 0 0-.72.294.985.985 0 0 0 0 1.403l5.688 5.58a1.016 1.016 0 0 0 .72.288c.266-.001.521-.105.71-.289L21.7 1.697A.995.995 0 0 0 22 .99a.978.978 0 0 0-.3-.707Z'/%3E%3C/svg%3E");
 }
 
 @media (min-width: $tablet-width) {

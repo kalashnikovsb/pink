@@ -69,47 +69,52 @@
         <fieldset class="main-form__fieldset main-form__fieldset--achievements">
           <legend class="main-form__legend main-form__legend--achievements">Ваши безбашенные достижения&nbsp;в&nbsp;путешествии</legend>
           <div class="main-form__fieldset-inner main-form__fieldset-inner--achievements">
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="selfie-with-a-shark" id="selfie-with-a-shark" value="true" checked>
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="selfie-with-a-shark" value="yes" checked>
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="selfie-with-a-shark">Сделал селфи с акулой</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="burn-on-the-beach" id="burn-on-the-beach" value="true" checked>
+              <span class="check-block__text">Сделал селфи с акулой</span>
+            </label>
+
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="get-burned-on-the-beach" value="yes" checked>
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="burn-on-the-beach">Обгорел на пляже</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="see-chuck-norris" id="see-chuck-norris" value="true">
+              <span class="check-block__text">Обгорел на пляже</span>
+            </label>
+
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="see-chuck-norris" value="yes">
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="see-chuck-norris">Видел Чака Норриса</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="buy-souvenirs" id="buy-souvenirs" value="true">
+              <span class="check-block__text">Видел Чака Норриса</span>
+            </label>
+
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="buy-souvenirs" value="yes">
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="buy-souvenirs">Накупил сувениров</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="hold-the-tower" id="hold-the-tower" value="true" checked>
+              <span class="check-block__text">Накупил сувениров</span>
+            </label>
+
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="hold-the-tower" value="yes" checked>
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="hold-the-tower">Удержал башню</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--checkbox">
-              <input class="check-block__input" type="checkbox" name="smash-the-hotel" id="smash-the-hotel" value="true">
+              <span class="check-block__text">Удержал башню</span>
+            </label>
+
+            <label class="check-block main-form__check-block main-form__check-block--checkbox">
+              <input class="check-block__input" type="checkbox" name="smash-the-hotel" value="yes">
               <span class="check-block__visible-input check-block__visible-input--checkbox"></span>
-              <label class="check-block__label" for="smash-the-hotel">Разгромил отель</label>
-            </div>
-            </div>
+              <span class="check-block__text">Разгромил отель</span>
+            </label>
+          </div>
         </fieldset>
 
         <fieldset class="main-form__fieldset main-form__fieldset--contacts">
           <legend class="main-form__legend main-form__legend--contacts">Контактная информация</legend>
           <div class="main-form__fieldset-inner main-form__fieldset-inner--contacts">
-            <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
+            <div class="input-block input-block--contacts input-block--contacts-phone main-form__input-block main-form__input-block--contacts">
               <label class="input-block__label input-block__label--contacts" for="customer-phone">Номер телефона</label>
               <input class="input-block__input input-block__input--contacts" type="text" name="customer-phone" id="customer-phone" placeholder="Номер, пожалуйста">
             </div>
-            <div class="input-block input-block--contacts main-form__input-block main-form__input-block--contacts">
+            <div class="input-block input-block--contacts input-block--contacts-email main-form__input-block main-form__input-block--contacts">
               <label class="input-block__label input-block__label--contacts" for="customer-address">Адрес почты</label>
               <input class="input-block__input input-block__input--contacts" type="text" name="customer-address" id="customer-address" placeholder="Введите почту *" required>
             </div>
@@ -119,21 +124,21 @@
         <fieldset class="main-form__fieldset main-form__fieldset--application">
           <legend class="main-form__legend main-form__legend--application">С каким приложением путешествовали?</legend>
           <div class="main-form__fieldset-inner main-form__fieldset-inner--application">
-            <div class="check-block main-form__check-block main-form__check-block--radio">
-              <input class="check-block__input" type="radio" name="application" id="ios-application" value="ios" required>
+            <label class="check-block main-form__check-block main-form__check-block--radio">
+              <input class="check-block__input" type="radio" name="application" id="ios-application" value="ios" checked>
               <span class="check-block__visible-input check-block__visible-input--radio"></span>
-              <label class="check-block__label" for="ios-application">Pink для iOS</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--radio">
+              <span class="check-block__text">Pink для iOS</span>
+            </label>
+            <label class="check-block main-form__check-block main-form__check-block--radio">
               <input class="check-block__input" type="radio" name="application" id="android-application" value="android">
               <span class="check-block__visible-input check-block__visible-input--radio"></span>
-              <label class="check-block__label" for="android-application">Pink на Android</label>
-            </div>
-            <div class="check-block main-form__check-block main-form__check-block--radio">
+              <span class="check-block__text">Pink на Android</span>
+            </label>
+            <label class="check-block main-form__check-block main-form__check-block--radio">
               <input class="check-block__input" type="radio" name="application" id="windows-phone-application" value="windows-phone">
               <span class="check-block__visible-input check-block__visible-input--radio"></span>
-              <label class="check-block__label" for="windows-phone-application">Windows Phone</label>
-            </div>
+              <span class="check-block__text">Windows Phone</span>
+            </label>
           </div>
         </fieldset>
 

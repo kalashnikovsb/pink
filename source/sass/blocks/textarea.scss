@@ -24,7 +24,7 @@
 }
 
 .textarea:focus {
-  border: 2px solid $red-color1;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.2);
 }
 
 @media (min-width: $tablet-width) {
