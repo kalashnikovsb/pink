@@ -88,12 +88,13 @@
   .slider-reviews__button {
     display: block;
     position: absolute;
+    padding: 0;
     border: 0;
     top: 213px;
     width: 22px;
     height: 41px;
-    background: black;
-    font-size: 0;
+    background-color: transparent;
+    background: lightpink;
   }
 
   .slider-reviews__button--prev {
@@ -102,6 +103,18 @@
 
   .slider-reviews__button--next {
     right: 130px;
+  }
+
+  .slider-reviews__button svg {
+    opacity: 0.1;
+  }
+
+  .slider-reviews__button:hover svg {
+    opacity: 0.6;
+  }
+
+  .slider-reviews__button:active svg {
+    opacity: 0.1;
   }
 
   .slider-reviews__list {
