@@ -1,11 +1,13 @@
 .main-nav {
   width: 100%;
+  // display: none;
 }
 
 .main-nav__list {
   list-style: none;
   padding: 0;
   margin: 0;
+  border-top: 1px solid $black-color;
 }
 
 .main-nav__item {
@@ -52,6 +54,7 @@
   .main-nav__list {
     display: flex;
     flex-wrap: wrap;
+    border-top: none;
   }
 
   .main-nav__item {

@@ -1,9 +1,12 @@
 .promo {
-  background: $gray-color2;
+  background-color: $gray-color2;
   padding-top: 22px;
   padding-bottom: 31px;
   padding-left: 20px;
   padding-right: 20px;
+  @media (min-resolution: 2dppx) {
+
+  }
 }
 
 .promo__title {
@@ -88,6 +91,9 @@
     display: grid;
     grid-template-columns: 48.39% 1fr;
     grid-template-rows: auto auto auto auto;
+    @media (min-resolution: 2dppx) {
+
+    }
   }
 
   .promo__title {
@@ -133,6 +139,9 @@
     padding-left: 130px;
     padding-right: 130px;
     grid-template-columns: 31.91% 1fr;
+    @media (min-resolution: 2dppx) {
+
+    }
   }
 
   .promo__title {
