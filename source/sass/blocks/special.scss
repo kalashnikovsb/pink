@@ -5,7 +5,7 @@
   padding-right: 20px;
   background-image: url("../../img/timer-background-tablet@1x.png");
   background-size: 238px auto;
-  background-position: 20px 53px;
+  background-position: 20px calc(100% - 34%);
   background-repeat: no-repeat;
 
   @media (min-resolution: 2dppx) {
