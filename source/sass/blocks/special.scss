@@ -3,14 +3,6 @@
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  background-image: url("../../img/timer-background-tablet@1x.png");
-  background-size: 238px auto;
-  background-position: 20px calc(100% - 34%);
-  background-repeat: no-repeat;
-
-  @media (min-resolution: 2dppx) {
-    background-image: url("../../img/timer-background-tablet@2x.png");
-  }
 }
 
 .special__inner {
@@ -48,15 +40,6 @@
     padding-left: 130px;
     padding-right: 130px;
     background-color: $gray-color3;
-
-    background-image: url("../../img/timer-background-desktop@1x.png");
-    background-size: 298px auto;
-    background-position: 131px 34px;
-    background-repeat: no-repeat;
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../../img/timer-background-desktop@2x.png");
-    }
   }
 
   .special__inner {

@@ -1,10 +1,7 @@
 .slider-rates {
   padding-top: 138px;
   padding-bottom: 46px;
-  background-image: url("../../img/slider-background-mobile@1x.png");
-  background-size: auto;
-  background-position: 50% 11px;
-  background-repeat: no-repeat;
+  background: yellow;
 }
 
 .slider-rates__wrap {
@@ -100,19 +97,18 @@
   font-size: 0;
   width: 30px;
   height: 20px;
+  background: black;
 }
 
 .slider-rates__cell-icon--yes {
   width: 31px;
   height: 21px;
-  background: url("../../img/tick-icon.svg");
 }
 
 .slider-rates__cell-icon--no {
   width: 27px;
   height: 27px;
   margin-right: 3px;
-  background: url("../../img/cross-icon.svg");
 }
 
 @media (min-width: $tablet-width) {
