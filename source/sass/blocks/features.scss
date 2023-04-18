@@ -1,5 +1,21 @@
 .features {
   padding-top: 40px;
+  background-image:
+    url("../../img/phone-background-mobile@1x.png"),
+    url("../../img/gray-background-mobile@1x.png");
+  background-size:
+    157px auto,
+    1172px auto;
+  background-position:
+    50% calc(100% + 43px),
+    50% 174px;
+  background-repeat: no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background-image:
+      url("../../img/phone-background-mobile@2x.png"),
+      url("../../img/gray-background-mobile@2x.png");
+  }
 }
 
 .features__title {
@@ -17,7 +33,6 @@
 }
 
 .features__list {
-  background: yellow;
   list-style: none;
   margin: 0;
   padding-top: 92px;
@@ -50,6 +65,21 @@
 @media (min-width: $tablet-width) {
   .features {
     padding-top: 47px;
+    background-image:
+      url("../../img/phone-background-tablet@1x.png"),
+      url("../../img/gray-background-tablet@1x.png");
+    background-size:
+      268px auto,
+      1200px auto;
+    background-position:
+      20px calc(100% + 65px),
+      50% 216px;
+
+    @media (min-resolution: 2dppx) {
+      background-image:
+        url("../../img/phone-background-tablet@2x.png"),
+        url("../../img/gray-background-tablet@2x.png");
+    }
   }
 
   .features__title {
@@ -84,6 +114,13 @@
   .features {
     padding-top: 62px;
     padding-bottom: 0;
+    background-image: url("../../img/gray-background-desktop@1x.png");
+    background-size: cover;
+    background-position: 50% 303px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/gray-background-desktop@2x.png");
+    }
   }
 
   .features__top {
@@ -121,6 +158,39 @@
     text-align: center;
   }
 
+  .features__item:nth-of-type(1) {
+    background-image: url("../../img/phone1-background-desktop@1x.png");
+    background-size: 308px auto;
+    background-position: 50% 27px;
+    background-repeat: no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/phone1-background-desktop@2x.png");
+    }
+  }
+
+  .features__item:nth-of-type(2) {
+    background-image: url("../../img/phone2-background-desktop@1x.png");
+    background-size: 308px auto;
+    background-position: 50% 27px;
+    background-repeat: no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/phone2-background-desktop@2x.png");
+    }
+  }
+
+  .features__item:nth-of-type(3) {
+    background-image: url("../../img/phone3-background-desktop@1x.png");
+    background-size: 308px auto;
+    background-position: 50% 27px;
+    background-repeat: no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/phone3-background-desktop@2x.png");
+    }
+  }
+
   .features__item:nth-of-type(2n) {
     margin-bottom: 34px;
   }
@@ -133,6 +203,7 @@
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 22px;
+    background: $gray-color3;
   }
 
   .features__item-text {
