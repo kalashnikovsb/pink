@@ -1,8 +1,17 @@
 .special {
   padding-top: 95px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   padding-left: 20px;
   padding-right: 20px;
+
+  background-repeat: no-repeat;
+  background-image: url("../../img/timer@1x.png");
+  background-size: 238px auto;
+  background-position: 20px calc(50% + 2px);
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/timer@2x.png");
+  }
 }
 
 .special__inner {
@@ -40,6 +49,9 @@
     padding-left: 130px;
     padding-right: 130px;
     background-color: $gray-color3;
+
+    background-size: 298px auto;
+    background-position: 131px 34px;
   }
 
   .special__inner {
