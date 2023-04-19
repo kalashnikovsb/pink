@@ -1,6 +1,5 @@
 .features {
   padding-top: 40px;
-  background: yellow;
 }
 
 .features__title {
@@ -24,6 +23,15 @@
   padding-bottom: 287px;
   padding-left: 20px;
   padding-right: 20px;
+
+  background-image: url("../../img/gray-background@1x.png");
+  background-repeat: no-repeat;
+  background-size: 1172px auto;
+  background-position: 50% -32px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/gray-background@2x.png");
+  }
 }
 
 .features__item {
@@ -68,6 +76,9 @@
     padding-top: 85px;
     padding-bottom: 9px;
     padding-left: 50%;
+
+    background-size: 1200px auto;
+    background-position: 50% -22px;
   }
 
   .features__item {
@@ -109,6 +120,9 @@
     padding-right: 130px;
     display: flex;
     flex-wrap: wrap;
+
+    background-size: 100% auto;
+    background-position: 50% 12px;
   }
 
   .features__item {
