@@ -37,20 +37,21 @@
         </ul>
       </nav>
     </header>
-
     <main class="main-content">
       <div class="content-title main-content__content-title">
         <h1 class="content-title__title">Фотографии<br>пользователей</h1>
       </div>
-
       <div class="content-text main-content__content-text">
         <p class="content-text__text">Взгляните на фотографии, которые выкладывают пользователи! Видите,&nbsp;как&nbsp;не&nbsp;хватает&nbsp;ваших?</p>
       </div>
-
       <article class="post main-content__wide-post">
         <h2 class="visually-hidden">Пост</h2>
         <a class="post__full-image-link post__full-image-link--wide" href="blank.html">
-          <img class="post__image" src="#" height="180" alt="Изображение">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/panorama-desktop@1x.jpg 1x, img/panorama-desktop@2x.jpg 2x">
+            <source media="(min-width: 660px)" srcset="img/panorama-tablet@1x.jpg 1x, img/panorama-tablet@2x.jpg 2x">
+            <img class="post__image post__image--wide" src="img/panorama-mobile@1x.jpg" srcset="img/panorama-mobile@2x.jpg 2x" height="137" alt="Панорама дня">
+          </picture>
         </a>
         <div class="post__inner post__inner--wide">
           <div class="post__meta post__meta--wide">
@@ -64,7 +65,6 @@
           </div>
         </div>
       </article>
-
       <section class="posts main-content__posts">
         <h2 class="visually-hidden">Список постов</h2>
         <ul class="posts__list">
@@ -72,7 +72,11 @@
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo1-desktop@1x.jpg 1x, img/photo1-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo1-tablet@1x.jpg 1x, img/photo1-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo1-mobile@1x.jpg" srcset="img/photo1-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -87,12 +91,15 @@
               </div>
             </article>
           </li>
-
           <li class="posts__item">
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo2-desktop@1x.jpg 1x, img/photo2-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo2-tablet@1x.jpg 1x, img/photo2-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo1-mobile@1x.jpg" srcset="img/photo2-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -107,12 +114,15 @@
               </div>
             </article>
           </li>
-
           <li class="posts__item">
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo3-desktop@1x.jpg 1x, img/photo3-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo3-tablet@1x.jpg 1x, img/photo3-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo3-mobile@1x.jpg" srcset="img/photo3-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -127,12 +137,15 @@
               </div>
             </article>
           </li>
-
           <li class="posts__item">
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo4-desktop@1x.jpg 1x, img/photo4-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo4-tablet@1x.jpg 1x, img/photo4-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo4-mobile@1x.jpg" srcset="img/photo4-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -147,12 +160,15 @@
               </div>
             </article>
           </li>
-
           <li class="posts__item">
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo5-desktop@1x.jpg 1x, img/photo5-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo5-tablet@1x.jpg 1x, img/photo5-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo5-mobile@1x.jpg" srcset="img/photo5-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -167,12 +183,15 @@
               </div>
             </article>
           </li>
-
           <li class="posts__item">
             <article class="post">
               <h2 class="visually-hidden">Пост</h2>
               <a class="post__full-image-link" href="blank.html">
-                <img class="post__image" src="#" width="280" height="180" alt="Изображение">
+                <picture>
+                  <source media="(min-width: 1200px)" srcset="img/photo6-desktop@1x.jpg 1x, img/photo6-desktop@2x.jpg 2x">
+                  <source media="(min-width: 660px)" srcset="img/photo6-tablet@1x.jpg 1x, img/photo6-tablet@2x.jpg 2x">
+                  <img class="post__image" src="img/photo6-mobile@1x.jpg" srcset="img/photo6-mobile@2x.jpg 2x" height="180" alt="Фотография пользователя">
+                </picture>
               </a>
               <div class="post__inner">
                 <div class="post__meta">
@@ -189,17 +208,17 @@
           </li>
         </ul>
       </section>
-
       <div class="content-text main-content__content-text content-text--bottom">
         <p class="content-text__text">Затмите их всех!<br>Выкладывайте все, что накопилось в телефоне!</p>
       </div>
-
       <section class="editor main-content__editor">
         <h2 class="visually-hidden">Редактор изображений</h2>
         <div class="editor__image-wrap">
-          <img class="editor__image" src="#" width="280" height="374" alt="Редактируемое изображение">
+          <picture>
+            <source media="(min-width: 660px)" srcset="img/photo-editor-tablet@1x.jpg 1x, img/photo-editor-tablet@2x.jpg 2x">
+            <img class="editor__image" src="img/photo-editor-mobile@1x.jpg" srcset="img/photo-editor-mobile@2x.jpg 2x" height="374" alt="Редактируемое изображение">
+          </picture>
         </div>
-
         <div class="editor__inner">
           <ul class="editor__settings-list">
             <li class="editor__setting-item editor__setting-item--crop">
@@ -221,11 +240,9 @@
               </div>
             </li>
           </ul>
-
           <div class="editor__line editor__line--main">
             <div class="editor__toggler editor__toggler--main"></div>
           </div>
-
           <div class="editor__buttons-wrap">
             <button class="editor__button button button--rounded button--editor-submit" type="button">Запостить</button>
             <button class="editor__button button button--rounded button--editor-cancel" type="button">Отмена</button>
@@ -233,7 +250,6 @@
         </div>
       </section>
     </main>
-
     <footer class="main-footer main-footer--catalog">
       <a class="logo logo--medium main-footer__logo" href="index.html">
         <img class="logo__image logo__image--medium" src="#" alt="Логотип Pink">

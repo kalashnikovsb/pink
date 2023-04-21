@@ -10,9 +10,9 @@
   background-size: auto 553px;
   background-position: 50% -130px;
 
-    @media (min-resolution: 2dppx) {
-      background-image: url("../../img/promo-background-mobile@2x.jpg");
-    }
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/promo-background-mobile@2x.jpg");
+  }
 }
 
 .content-title--form {
