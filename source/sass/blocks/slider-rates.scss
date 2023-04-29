@@ -116,18 +116,22 @@
 .slider-rates__cell-icon--yes {
   width: 31px;
   height: 21px;
-  background-image: url("../../img/yes-icon.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+}
+
+.slider-rates__cell-icon--yes svg {
+  width: 31px;
+  height: 21px;
 }
 
 .slider-rates__cell-icon--no {
   width: 27px;
   height: 27px;
   margin-right: 3px;
-  background-image: url("../../img/no-icon.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+}
+
+.slider-rates__cell-icon--no svg {
+  width: 27px;
+  height: 27px;
 }
 
 @media (min-width: $tablet-width) {

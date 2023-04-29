@@ -14,7 +14,19 @@
 .copyright__link {
   width: 27px;
   height: 34px;
-  background: black;
+}
+
+.copyright__link svg {
+  fill: $red-color1;
+}
+
+.copyright__link:hover svg {
+  fill: $blue-color1;
+}
+
+.copyright__link:active svg {
+  fill: $blue-color1;
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {
