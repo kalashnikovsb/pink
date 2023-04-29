@@ -28,6 +28,9 @@
   height: 48px;
   border: 3px solid $gray-color1;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials__link:hover {
@@ -36,6 +39,10 @@
 
 .socials__link:active {
   border: 3px solid $gray-color1;
+}
+
+.socials__link:active svg {
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {

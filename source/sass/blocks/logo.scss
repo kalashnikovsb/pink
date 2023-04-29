@@ -8,16 +8,83 @@
   height: 40px;
 }
 
-.logo-icon {
-
+.logo__svg {
+  display: block;
 }
 
+.logo__svg--white-mobile {
+  display: block;
+  fill: $white-color;
+}
 
+.logo:hover .logo__svg--white-mobile {
+  fill: $red-color1;
+}
+
+.logo:active .logo__svg--white-mobile {
+  opacity: 0.3;
+  fill: $white-color;
+}
+
+.logo__svg--white-tablet {
+  display: none;
+  fill: $white-color;
+}
+
+.logo__svg--white-desktop {
+  display: none;
+  fill: $white-color;
+}
+
+.logo__svg--blue-tablet {
+  display: block;
+  fill: $blue-color1;
+}
+
+.logo:hover .logo__svg--blue-tablet {
+  fill: $red-color1;
+}
+
+.logo:active .logo__svg--blue-tablet {
+  opacity: 0.3;
+  fill: initial;
+}
+
+.logo__svg--blue-desktop {
+  display: none;
+  fill: $blue-color1;
+}
 
 @media (min-width: $tablet-width) {
   .logo {
     width: 145px;
     height: 40px;
+  }
+
+  .logo__svg {
+    width: 145px;
+    height: 40px;
+  }
+
+  .logo__svg--white-mobile {
+    display: none;
+  }
+
+  .logo__svg--white-tablet {
+    display: block;
+  }
+
+  .logo:hover .logo__svg--white-tablet {
+    fill: $red-color1;
+  }
+
+  .logo:active .logo__svg--white-tablet {
+    opacity: 0.3;
+    fill: $white-color;
+  }
+
+  .logo__svg--white-desktop {
+    display: none;
   }
 }
 
@@ -25,5 +92,48 @@
   .logo {
     width: 147px;
     height: 40px;
+  }
+
+  .logo__svg {
+    width: 147px;
+    height: 40px;
+  }
+
+  .logo__svg--white-mobile {
+    display: none;
+  }
+
+  .logo__svg--white-tablet {
+    display: none;
+  }
+
+  .logo__svg--white-desktop {
+    display: block;
+  }
+
+  .logo:hover .logo__svg--white-desktop {
+    fill: $red-color1;
+  }
+
+  .logo:active .logo__svg--white-desktop {
+    opacity: 0.3;
+    fill: initial;
+  }
+
+  .logo__svg--blue-tablet {
+    display: none;
+  }
+
+  .logo__svg--blue-desktop {
+    display: block;
+  }
+
+  .logo:hover .logo__svg--blue-desktop {
+    fill: $red-color1;
+  }
+
+  .logo:active .logo__svg--blue-desktop {
+    opacity: 0.3;
+    fill: initial;
   }
 }
