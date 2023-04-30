@@ -81,9 +81,15 @@
   width: 13px;
   height: 12px;
   font-size: 0;
+  display: block;
   background: black;
   margin-top: 4px;
   margin-right: 18px;
+}
+
+.post__like-button svg {
+  width: 13px;
+  height: 12px;
 }
 
 .post__like-number {
