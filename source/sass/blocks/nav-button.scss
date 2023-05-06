@@ -30,13 +30,13 @@
 .nav-button__icon--sandwich {
   width: 50px;
   height: 24px;
-  display: block;
+  display: none;
 }
 
 .nav-button__icon--cross {
   width: 23px;
   height: 23px;
-  display: none;
+  display: block;
 }
 
 @media (min-width: $desktop-width) {
