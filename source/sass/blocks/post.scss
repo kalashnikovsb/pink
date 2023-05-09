@@ -101,6 +101,25 @@
 
 .post__full-image-link--wide {
   height: 137px;
+  position: relative;
+}
+
+.post__full-image-link--wide::before {
+  content: "Панорама дня";
+  color: $white-color;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 19px;
+  padding-right: 20px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background: $red-color1;
 }
 
 .post__inner--wide {
@@ -173,10 +192,13 @@
     height: 509px;
   }
 
+  .post__full-image-link--wide::before {
+    top: 57px;
+  }
+
   .post__inner--wide {
     flex-direction: row;
     flex-wrap: wrap;
-    // align-items: stretch;
     align-content: flex-start;
     min-height: 76px;
     gap: 0 0;
@@ -233,6 +255,11 @@
 
   .post__full-image-link--wide {
     height: 506px;
+  }
+
+  .post__full-image-link--wide::before {
+    top: 54px;
+    right: 130px;
   }
 
   .post__inner--wide {
