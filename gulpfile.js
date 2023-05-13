@@ -79,7 +79,7 @@ exports.images = copyImages;
 // WebP
 
 const createWebp = () => {
-  return gulp.src("source/img/**/*.{jpg,png}")
+  return gulp.src("source/img/*.{jpg,png}")
     .pipe(webp({quality: 80}))
     .pipe(gulp.dest("build/img"));
 };
@@ -89,7 +89,7 @@ exports.createWebp = createWebp;
 // Sprite
 
 const sprite = () => {
-  return gulp.src("source/img/*.svg")
+  return gulp.src("source/img/icons/*.svg")
     .pipe(svgstore({
       inlineSvg: true
     }))
@@ -107,8 +107,9 @@ const copy = (done) => {
     "source/*.ico",
     "source/img/**/*.svg",
     "!source/img/icons/*.svg",
+    "!source/img/favicons/*.{jpg,png,svg}",
     "source/manifest.webmanifest",
-    "source/favicons/*.{jpg,png,svg}",
+    // "source/favicons/*.{jpg,png,svg}",
   ], {
     base: "source"
   })
