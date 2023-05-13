@@ -18,8 +18,8 @@
   background-repeat: no-repeat;
 
   background-image:
-    url("../../img/promo-hand@1x.png"),
-    url("../../img/promo-background-mobile@1x.jpg");
+    url("../img/promo-hand@1x.png"),
+    url("../img/promo-background-mobile@1x.jpg");
   background-size:
     273px auto,
     auto 553px;
@@ -29,8 +29,8 @@
 
   @media (min-resolution: 2dppx) {
     background-image:
-      url("../../img/promo-hand@2x.png"),
-      url("../../img/promo-background-mobile@2x.jpg");
+      url("../img/promo-hand@2x.png"),
+      url("../img/promo-background-mobile@2x.jpg");
   }
 }
 
@@ -120,8 +120,8 @@
     grid-template-rows: auto auto auto auto;
 
     background-image:
-      url("../../img/promo-hand@1x.png"),
-      url("../../img/promo-background-tablet@1x.jpg");
+      url("../img/promo-hand@1x.png"),
+      url("../img/promo-background-tablet@1x.jpg");
     background-size:
       473px auto,
       1200px auto;
@@ -131,8 +131,8 @@
 
     @media (min-resolution: 2dppx) {
       background-image:
-        url("../../img/promo-hand@2x.png"),
-        url("../../img/promo-background-tablet@2x.jpg");
+        url("../img/promo-hand@2x.png"),
+        url("../img/promo-background-tablet@2x.jpg");
     }
   }
 
@@ -186,8 +186,8 @@
     grid-template-columns: 31.91% 1fr;
 
     background-image:
-      url("../../img/promo-hand@1x.png"),
-      url("../../img/promo-background-desktop@1x.jpg");
+      url("../img/promo-hand@1x.png"),
+      url("../img/promo-background-desktop@1x.jpg");
     background-size:
       560px auto,
       2560px auto;
@@ -197,8 +197,8 @@
 
     @media (min-resolution: 2dppx) {
       background-image:
-        url("../../img/promo-hand@2x.png"),
-        url("../../img/promo-background-desktop@2x.jpg");
+        url("../img/promo-hand@2x.png"),
+        url("../img/promo-background-desktop@2x.jpg");
     }
   }
 

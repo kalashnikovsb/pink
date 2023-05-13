@@ -58,7 +58,7 @@ exports.scripts = scripts;
 // Images
 
 const optimizeImages = () => {
-  return gulp.src("source/img/**/*.{png,jpg,svg}")
+  return gulp.src("source/img/**/*.{jpg,png,svg}")
     .pipe(imagemin([
       imagemin.mozjpeg({progressive: true}),
       imagemin.optipng({optimizationLevel: 3}),
@@ -70,7 +70,7 @@ const optimizeImages = () => {
 exports.optimizeImages = optimizeImages;
 
 const copyImages = () => {
-  return gulp.src("source/img/**/*.{png,jpg,svg}")
+  return gulp.src("source/img/**/*.{jpg,png,svg}")
     .pipe(gulp.dest("build/img"));
 };
 
@@ -79,8 +79,8 @@ exports.images = copyImages;
 // WebP
 
 const createWebp = () => {
-  return gulp.src("source/img/icons/*.{jpg,png}")
-    .pipe(webp({quality: 90}))
+  return gulp.src("source/img/**/*.{jpg,png}")
+    .pipe(webp({quality: 80}))
     .pipe(gulp.dest("build/img"));
 };
 
@@ -107,6 +107,8 @@ const copy = (done) => {
     "source/*.ico",
     "source/img/**/*.svg",
     "!source/img/icons/*.svg",
+    "source/manifest.webmanifest",
+    "source/favicons/*.{jpg,png,svg}",
   ], {
     base: "source"
   })
@@ -121,6 +123,8 @@ exports.copy = copy;
 const clean = () => {
   return del("build");
 };
+
+exports.clean = clean;
 
 // Server
 
@@ -165,9 +169,26 @@ const build = gulp.series(
     scripts,
     sprite,
     createWebp
-  ),
+  )
 );
 
+exports.build = build;
+
+// Default
+
 exports.default = gulp.series(
-  styles, server, watcher
+  clean,
+  copy,
+  copyImages,
+  gulp.parallel(
+    styles,
+    html,
+    scripts,
+    sprite,
+    createWebp
+  ),
+  gulp.series(
+    server,
+    watcher
+  )
 );

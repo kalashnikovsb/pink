@@ -5,12 +5,12 @@
   padding-right: 20px;
 
   background-repeat: no-repeat;
-  background-image: url("../../img/timer@1x.png");
+  background-image: url("../img/timer@1x.png");
   background-size: 238px auto;
   background-position: calc(50% - 191px) calc(50% + 2px);
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/timer@2x.png");
+    background-image: url("../img/timer@2x.png");
   }
 }
 
