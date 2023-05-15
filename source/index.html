@@ -10,6 +10,9 @@
     <link rel="manifest" href="manifest.webmanifest">
     <title>Pink</title>
     <link href="css/style.min.css" rel="stylesheet">
+    <link rel="preload" href="img/promo-background-mobile@1x.webp" as="image">
+    <link rel="preload" href="img/promo-background-desktop@2x.webp" as="image">
+    <link rel="preload" href="img/promo-hand@2x.webp" as="image">
   </head>
   <body class="page-body">
     <svg style="display: none">
@@ -419,15 +422,15 @@
           <ul class="contacts__list">
             <li class="contacts__item">
               <p class="contacts__caption">Звоните:</p>
-              <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+              <a class="contacts__link" href="tel:+78125556666" aria-label="Контактный телефон">+7 (812) 555-66-66</a>
             </li>
             <li class="contacts__item">
               <p class="contacts__caption">Пишите:</p>
-              <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+              <a class="contacts__link" href="mailto:mail@htmlacademy.ru" aria-label="Электронная почта">mail@htmlacademy.ru</a>
             </li>
             <li class="contacts__item">
               <p class="contacts__caption">Приезжайте в гости:</p>
-              <a class="contacts__link">ул. Большая<br>Конюшенная, 19/8</a>
+              <a class="contacts__link" aria-label="Наш адрес">ул. Большая<br>Конюшенная, 19/8</a>
             </li>
           </ul>
         </div>

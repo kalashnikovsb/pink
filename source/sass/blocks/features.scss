@@ -26,8 +26,8 @@
 
   background-repeat: no-repeat;
   background-image:
-    url("../img/features-phone@1x.png"),
-    url("../img/gray-background-mobile@1x.png");
+    url("../img/features-phone@1x.webp"),
+    url("../img/gray-background-mobile@1x.webp");
   background-size:
     155px auto,
     1172px auto;
@@ -37,8 +37,8 @@
 
   @media (min-resolution: 2dppx) {
     background-image:
-      url("../img/features-phone@2x.png"),
-      url("../img/gray-background-mobile@2x.png");
+      url("../img/features-phone@2x.webp"),
+      url("../img/gray-background-mobile@2x.webp");
   }
 }
 
@@ -86,8 +86,8 @@
     padding-left: 50%;
 
     background-image:
-      url("../img/features-phone@1x.png"),
-      url("../img/gray-background@1x.png");
+      url("../img/features-phone@1x.webp"),
+      url("../img/gray-background@1x.webp");
     background-size:
       268px auto,
       1200px auto;
@@ -97,8 +97,8 @@
 
     @media (min-resolution: 2dppx) {
       background-image:
-        url("../img/features-phone@2x.png"),
-        url("../img/gray-background@2x.png");
+        url("../img/features-phone@2x.webp"),
+        url("../img/gray-background@2x.webp");
     }
   }
 
@@ -142,12 +142,12 @@
     display: flex;
     flex-wrap: wrap;
 
-    background-image: url("../img/gray-background@1x.png");
+    background-image: url("../img/gray-background@1x.webp");
     background-size: 100% auto;
     background-position: 50% 22px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/gray-background@2x.png");
+      background-image: url("../img/gray-background@2x.webp");
     }
   }
 
@@ -165,26 +165,26 @@
   }
 
   .features__item:nth-of-type(1) {
-    background-image: url("../img/feature1-phone@1x.png");
+    background-image: url("../img/feature1-phone@1x.webp");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/feature1-phone@2x.png");
+      background-image: url("../img/feature1-phone@2x.webp");
     }
   }
 
   .features__item:nth-of-type(2) {
-    background-image: url("../img/feature2-phone@1x.png");
+    background-image: url("../img/feature2-phone@1x.webp");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/feature2-phone@2x.png");
+      background-image: url("../img/feature2-phone@2x.webp");
     }
   }
 
   .features__item:nth-of-type(3) {
-    background-image: url("../img/feature3-phone@1x.png");
+    background-image: url("../img/feature3-phone@1x.webp");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/feature3-phone@2x.png");
+      background-image: url("../img/feature3-phone@2x.webp");
     }
   }
 

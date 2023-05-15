@@ -10,6 +10,8 @@
     <link rel="manifest" href="manifest.webmanifest">
     <title>Pink</title>
     <link href="css/style.min.css" rel="stylesheet">
+    <link rel="preload" href="img/promo-background-mobile@1x.webp" as="image">
+    <link rel="preload" href="img/promo-background-desktop@2x.webp" as="image">
   </head>
   <body class="page-body">
     <svg style="display: none">
@@ -273,7 +275,7 @@
           </div>
         </fieldset>
         <fieldset class="main-form__fieldset main-form__fieldset--additional">
-          <button class="main-form__submit button button--form-submit" type="submit">Отправить форму</button>
+          <button class="main-form__submit button button--form-submit" type="submit" aria-label="Кнопка отправки формы">Отправить форму</button>
           <p class="main-form__required-mark"><span class="main-form__required-span">*</span> &mdash; Обязательные <span class="main-form__required-extra">для заполнения</span> поля</p>
         </fieldset>
       </form>
@@ -325,7 +327,7 @@
         <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
       </div>
       <div class="popup__bottom">
-        <button class="button popup__button button--popup">Ок</button>
+        <button class="button popup__button button--popup" aria-label="Кнопка закрытия окна">Ок</button>
       </div>
     </section>
     <section class="popup popup--success">
@@ -334,7 +336,7 @@
         <p class="popup__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим&nbsp;вас.</p>
       </div>
       <div class="popup__bottom popup__bottom--success">
-        <button class="button popup__button button--popup" type="button">Закрыть окно</button>
+        <button class="button popup__button button--popup" type="button" aria-label="Кнопка закрытия окна">Закрыть окно</button>
       </div>
     </section>
     <script src="js/script.min.js"></script>
